@@ -1,0 +1,36 @@
+name: DevSphere Security CI
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build packages
+        run: |
+          npm run build --workspace=packages/shared
+          npm run build --workspace=packages/scanner-core
+          npm run build --workspace=apps/api
+
+      - name: Run Scanner Core Tests
+        run: npm run test --workspace=packages/scanner-core
+
+      - name: Run API Tests
+        run: npm run test --workspace=apps/api

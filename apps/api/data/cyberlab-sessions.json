@@ -1,0 +1,3838 @@
+[
+  {
+    "id": "lab_1791627204701_nmtp8",
+    "name": "CyberLab: soraix.vercel.app",
+    "targetUrl": "https://soraix.vercel.app",
+    "mode": "public_preview",
+    "status": "ready",
+    "createdAt": "2026-10-10T10:13:25.078Z",
+    "expiresAt": "2026-10-11T10:13:25.078Z",
+    "verifiedDomain": false,
+    "framework": "unknown",
+    "snapshot": {
+      "url": "https://soraix.vercel.app",
+      "title": "SoraiX — A world beyond ordinary",
+      "description": "Find your next obsession. Discover extraordinary anime, build your watchlist, and explore new worlds with SoraiX.",
+      "domStructure": {
+        "title": "SoraiX — A world beyond ordinary",
+        "metaTags": {
+          "viewport": "width=device-width, initial-scale=1.0",
+          "theme-color": "#0b0b10",
+          "description": "Find your next obsession. Discover extraordinary anime, build your watchlist, and explore new worlds with SoraiX."
+        },
+        "headers": [],
+        "links": [],
+        "forms": [],
+        "buttons": [],
+        "scripts": [
+          "/assets/index-CH0zYq8T.js"
+        ],
+        "stylesheets": [
+          "/assets/index-DqWFeYdv.css"
+        ],
+        "images": []
+      },
+      "networkResources": [
+        {
+          "url": "https://soraix.vercel.app",
+          "type": "document",
+          "sizeBytes": 845,
+          "status": 200,
+          "cached": false
+        },
+        {
+          "url": "/assets/index-CH0zYq8T.js",
+          "type": "script",
+          "sizeBytes": 35915,
+          "status": 200,
+          "cached": true
+        },
+        {
+          "url": "/assets/index-DqWFeYdv.css",
+          "type": "stylesheet",
+          "sizeBytes": 10045,
+          "status": 200,
+          "cached": true
+        }
+      ],
+      "syntheticApis": [
+        {
+          "path": "/api/v1/health",
+          "method": "GET",
+          "mockStatus": 200,
+          "mockResponse": {
+            "status": "healthy",
+            "uptime": "99.98%",
+            "replica": "cyberlab-node-01"
+          }
+        },
+        {
+          "path": "/api/v1/session",
+          "method": "GET",
+          "mockStatus": 200,
+          "mockResponse": {
+            "authenticated": false,
+            "csrfToken": "synth_csrf_ljgmq"
+          }
+        }
+      ],
+      "viewportMetrics": {
+        "desktop": {
+          "width": 1440,
+          "height": 900,
+          "layoutShiftScore": 0.02
+        },
+        "tablet": {
+          "width": 768,
+          "height": 1024,
+          "layoutShiftScore": 0.04
+        },
+        "mobile": {
+          "width": 375,
+          "height": 667,
+          "layoutShiftScore": 0.07
+        }
+      },
+      "securityHeaders": {
+        "content-security-policy": "default-src 'self'; script-src 'self'; script-src-attr 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https: data: blob:; media-src 'self' https: blob:; connect-src 'self' https:; worker-src 'self' blob:; frame-src 'self' https:; frame-ancestors 'none'; object-src 'none'; base-uri 'self'; form-action 'self'",
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "permissions-policy": "camera=(), microphone=(), geolocation=()",
+        "x-xss-protection": null
+      },
+      "observedAt": "2026-10-10T10:13:25.078Z",
+      "disclaimer": "Public Visual Preview — Not a Complete Website Clone. All traffic and interactions remain strictly inside DevSphere isolated infrastructure."
+    },
+    "activeVUs": 0,
+    "quotas": {
+      "maxVUs": 1000,
+      "maxDurationSec": 60,
+      "maxFaults": 10,
+      "memoryMb": 1024
+    },
+    "trafficSimulationHistory": [
+      {
+        "id": "sim_1791627652480_srbdul",
+        "timestamp": "2026-10-10T10:20:52.480Z",
+        "vus": 500,
+        "durationSec": 10,
+        "totalRequests": 9700,
+        "requestsPerSecond": 970,
+        "throughputKbps": 112520,
+        "latency": {
+          "p50": 325,
+          "p90": 487,
+          "p95": 578,
+          "p99": 794,
+          "min": 31,
+          "max": 1191,
+          "avg": 361
+        },
+        "errorRatePercent": 0.63,
+        "timeouts": 24,
+        "circuitBreakerTriggered": false,
+        "bottlenecks": [
+          "Database connection pool contention modeled at 500+ concurrent clients.",
+          "GC pause pressure observed in high-concurrency Node.js event loop.",
+          "p95 latency elevated (578ms) — consider caching hot API endpoints."
+        ],
+        "timeSeries": [
+          {
+            "second": 1,
+            "rps": 321,
+            "latencyP95": 604,
+            "errors": 2,
+            "activeVUs": 167
+          },
+          {
+            "second": 2,
+            "rps": 675,
+            "latencyP95": 542,
+            "errors": 4,
+            "activeVUs": 333
+          },
+          {
+            "second": 3,
+            "rps": 965,
+            "latencyP95": 628,
+            "errors": 6,
+            "activeVUs": 500
+          },
+          {
+            "second": 4,
+            "rps": 1003,
+            "latencyP95": 590,
+            "errors": 6,
+            "activeVUs": 500
+          },
+          {
+            "second": 5,
+            "rps": 934,
+            "latencyP95": 569,
+            "errors": 6,
+            "activeVUs": 500
+          },
+          {
+            "second": 6,
+            "rps": 997,
+            "latencyP95": 610,
+            "errors": 6,
+            "activeVUs": 500
+          },
+          {
+            "second": 7,
+            "rps": 945,
+            "latencyP95": 540,
+            "errors": 6,
+            "activeVUs": 500
+          },
+          {
+            "second": 8,
+            "rps": 976,
+            "latencyP95": 573,
+            "errors": 6,
+            "activeVUs": 500
+          },
+          {
+            "second": 9,
+            "rps": 986,
+            "latencyP95": 624,
+            "errors": 6,
+            "activeVUs": 500
+          },
+          {
+            "second": 10,
+            "rps": 936,
+            "latencyP95": 592,
+            "errors": 6,
+            "activeVUs": 500
+          }
+        ],
+        "isSynthetic": true,
+        "disclaimer": "Synthetic Load Simulation executed in isolated DevSphere infrastructure. No requests sent to external systems. Results are synthetic estimates based on replica/mock architecture."
+      },
+      {
+        "id": "sim_1791627634197_yetvi",
+        "timestamp": "2026-10-10T10:20:34.197Z",
+        "vus": 1000,
+        "durationSec": 10,
+        "totalRequests": 14430,
+        "requestsPerSecond": 1443,
+        "throughputKbps": 167388,
+        "latency": {
+          "p50": 437,
+          "p90": 655,
+          "p95": 776,
+          "p99": 1067,
+          "min": 31,
+          "max": 1601,
+          "avg": 485
+        },
+        "errorRatePercent": 2.4,
+        "timeouts": 138,
+        "circuitBreakerTriggered": false,
+        "bottlenecks": [
+          "Database connection pool contention modeled at 500+ concurrent clients.",
+          "GC pause pressure observed in high-concurrency Node.js event loop.",
+          "p95 latency elevated (776ms) — consider caching hot API endpoints.",
+          "Error rate 2.4% indicates upstream timeout saturation."
+        ],
+        "timeSeries": [
+          {
+            "second": 1,
+            "rps": 487,
+            "latencyP95": 822,
+            "errors": 12,
+            "activeVUs": 333
+          },
+          {
+            "second": 2,
+            "rps": 973,
+            "latencyP95": 813,
+            "errors": 23,
+            "activeVUs": 667
+          },
+          {
+            "second": 3,
+            "rps": 1381,
+            "latencyP95": 769,
+            "errors": 33,
+            "activeVUs": 1000
+          },
+          {
+            "second": 4,
+            "rps": 1396,
+            "latencyP95": 851,
+            "errors": 34,
+            "activeVUs": 1000
+          },
+          {
+            "second": 5,
+            "rps": 1423,
+            "latencyP95": 758,
+            "errors": 34,
+            "activeVUs": 1000
+          },
+          {
+            "second": 6,
+            "rps": 1504,
+            "latencyP95": 738,
+            "errors": 36,
+            "activeVUs": 1000
+          },
+          {
+            "second": 7,
+            "rps": 1486,
+            "latencyP95": 700,
+            "errors": 36,
+            "activeVUs": 1000
+          },
+          {
+            "second": 8,
+            "rps": 1492,
+            "latencyP95": 845,
+            "errors": 36,
+            "activeVUs": 1000
+          },
+          {
+            "second": 9,
+            "rps": 1479,
+            "latencyP95": 796,
+            "errors": 35,
+            "activeVUs": 1000
+          },
+          {
+            "second": 10,
+            "rps": 1467,
+            "latencyP95": 813,
+            "errors": 35,
+            "activeVUs": 1000
+          }
+        ],
+        "isSynthetic": true,
+        "disclaimer": "Synthetic Load Simulation executed in isolated DevSphere infrastructure. No requests sent to external systems. Results are synthetic estimates based on replica/mock architecture."
+      },
+      {
+        "id": "sim_1791627634044_lxsr0m",
+        "timestamp": "2026-10-10T10:20:34.044Z",
+        "vus": 1000,
+        "durationSec": 10,
+        "totalRequests": 14930,
+        "requestsPerSecond": 1493,
+        "throughputKbps": 173188,
+        "latency": {
+          "p50": 422,
+          "p90": 633,
+          "p95": 750,
+          "p99": 1032,
+          "min": 30,
+          "max": 1548,
+          "avg": 469
+        },
+        "errorRatePercent": 1.79,
+        "timeouts": 106,
+        "circuitBreakerTriggered": false,
+        "bottlenecks": [
+          "Database connection pool contention modeled at 500+ concurrent clients.",
+          "GC pause pressure observed in high-concurrency Node.js event loop.",
+          "p95 latency elevated (750ms) — consider caching hot API endpoints.",
+          "Error rate 1.79% indicates upstream timeout saturation."
+        ],
+        "timeSeries": [
+          {
+            "second": 1,
+            "rps": 474,
+            "latencyP95": 815,
+            "errors": 8,
+            "activeVUs": 333
+          },
+          {
+            "second": 2,
+            "rps": 1000,
+            "latencyP95": 771,
+            "errors": 18,
+            "activeVUs": 667
+          },
+          {
+            "second": 3,
+            "rps": 1466,
+            "latencyP95": 787,
+            "errors": 26,
+            "activeVUs": 1000
+          },
+          {
+            "second": 4,
+            "rps": 1430,
+            "latencyP95": 747,
+            "errors": 26,
+            "activeVUs": 1000
+          },
+          {
+            "second": 5,
+            "rps": 1420,
+            "latencyP95": 694,
+            "errors": 25,
+            "activeVUs": 1000
+          },
+          {
+            "second": 6,
+            "rps": 1455,
+            "latencyP95": 690,
+            "errors": 26,
+            "activeVUs": 1000
+          },
+          {
+            "second": 7,
+            "rps": 1491,
+            "latencyP95": 685,
+            "errors": 27,
+            "activeVUs": 1000
+          },
+          {
+            "second": 8,
+            "rps": 1562,
+            "latencyP95": 790,
+            "errors": 28,
+            "activeVUs": 1000
+          },
+          {
+            "second": 9,
+            "rps": 1498,
+            "latencyP95": 804,
+            "errors": 27,
+            "activeVUs": 1000
+          },
+          {
+            "second": 10,
+            "rps": 1521,
+            "latencyP95": 741,
+            "errors": 27,
+            "activeVUs": 1000
+          }
+        ],
+        "isSynthetic": true,
+        "disclaimer": "Synthetic Load Simulation executed in isolated DevSphere infrastructure. No requests sent to external systems. Results are synthetic estimates based on replica/mock architecture."
+      },
+      {
+        "id": "sim_1791627633903_xemb7e",
+        "timestamp": "2026-10-10T10:20:33.903Z",
+        "vus": 1000,
+        "durationSec": 10,
+        "totalRequests": 14680,
+        "requestsPerSecond": 1468,
+        "throughputKbps": 170288,
+        "latency": {
+          "p50": 429,
+          "p90": 644,
+          "p95": 763,
+          "p99": 1049,
+          "min": 30,
+          "max": 1574,
+          "avg": 477
+        },
+        "errorRatePercent": 2.85,
+        "timeouts": 167,
+        "circuitBreakerTriggered": false,
+        "bottlenecks": [
+          "Database connection pool contention modeled at 500+ concurrent clients.",
+          "GC pause pressure observed in high-concurrency Node.js event loop.",
+          "p95 latency elevated (763ms) — consider caching hot API endpoints.",
+          "Error rate 2.85% indicates upstream timeout saturation."
+        ],
+        "timeSeries": [
+          {
+            "second": 1,
+            "rps": 504,
+            "latencyP95": 702,
+            "errors": 14,
+            "activeVUs": 333
+          },
+          {
+            "second": 2,
+            "rps": 1010,
+            "latencyP95": 687,
+            "errors": 29,
+            "activeVUs": 667
+          },
+          {
+            "second": 3,
+            "rps": 1463,
+            "latencyP95": 787,
+            "errors": 42,
+            "activeVUs": 1000
+          },
+          {
+            "second": 4,
+            "rps": 1453,
+            "latencyP95": 805,
+            "errors": 41,
+            "activeVUs": 1000
+          },
+          {
+            "second": 5,
+            "rps": 1521,
+            "latencyP95": 704,
+            "errors": 43,
+            "activeVUs": 1000
+          },
+          {
+            "second": 6,
+            "rps": 1497,
+            "latencyP95": 774,
+            "errors": 43,
+            "activeVUs": 1000
+          },
+          {
+            "second": 7,
+            "rps": 1500,
+            "latencyP95": 725,
+            "errors": 43,
+            "activeVUs": 1000
+          },
+          {
+            "second": 8,
+            "rps": 1489,
+            "latencyP95": 781,
+            "errors": 42,
+            "activeVUs": 1000
+          },
+          {
+            "second": 9,
+            "rps": 1453,
+            "latencyP95": 716,
+            "errors": 41,
+            "activeVUs": 1000
+          },
+          {
+            "second": 10,
+            "rps": 1489,
+            "latencyP95": 794,
+            "errors": 42,
+            "activeVUs": 1000
+          }
+        ],
+        "isSynthetic": true,
+        "disclaimer": "Synthetic Load Simulation executed in isolated DevSphere infrastructure. No requests sent to external systems. Results are synthetic estimates based on replica/mock architecture."
+      },
+      {
+        "id": "sim_1791627633750_w778ta9",
+        "timestamp": "2026-10-10T10:20:33.750Z",
+        "vus": 1000,
+        "durationSec": 10,
+        "totalRequests": 17280,
+        "requestsPerSecond": 1728,
+        "throughputKbps": 200448,
+        "latency": {
+          "p50": 365,
+          "p90": 547,
+          "p95": 648,
+          "p99": 891,
+          "min": 26,
+          "max": 1337,
+          "avg": 405
+        },
+        "errorRatePercent": 1.25,
+        "timeouts": 86,
+        "circuitBreakerTriggered": false,
+        "bottlenecks": [
+          "Database connection pool contention modeled at 500+ concurrent clients.",
+          "GC pause pressure observed in high-concurrency Node.js event loop.",
+          "p95 latency elevated (648ms) — consider caching hot API endpoints.",
+          "Error rate 1.25% indicates upstream timeout saturation."
+        ],
+        "timeSeries": [
+          {
+            "second": 1,
+            "rps": 564,
+            "latencyP95": 686,
+            "errors": 7,
+            "activeVUs": 333
+          },
+          {
+            "second": 2,
+            "rps": 1207,
+            "latencyP95": 632,
+            "errors": 15,
+            "activeVUs": 667
+          },
+          {
+            "second": 3,
+            "rps": 1651,
+            "latencyP95": 650,
+            "errors": 21,
+            "activeVUs": 1000
+          },
+          {
+            "second": 4,
+            "rps": 1787,
+            "latencyP95": 626,
+            "errors": 22,
+            "activeVUs": 1000
+          },
+          {
+            "second": 5,
+            "rps": 1805,
+            "latencyP95": 702,
+            "errors": 23,
+            "activeVUs": 1000
+          },
+          {
+            "second": 6,
+            "rps": 1763,
+            "latencyP95": 712,
+            "errors": 22,
+            "activeVUs": 1000
+          },
+          {
+            "second": 7,
+            "rps": 1771,
+            "latencyP95": 700,
+            "errors": 22,
+            "activeVUs": 1000
+          },
+          {
+            "second": 8,
+            "rps": 1804,
+            "latencyP95": 617,
+            "errors": 23,
+            "activeVUs": 1000
+          },
+          {
+            "second": 9,
+            "rps": 1659,
+            "latencyP95": 598,
+            "errors": 21,
+            "activeVUs": 1000
+          },
+          {
+            "second": 10,
+            "rps": 1711,
+            "latencyP95": 667,
+            "errors": 21,
+            "activeVUs": 1000
+          }
+        ],
+        "isSynthetic": true,
+        "disclaimer": "Synthetic Load Simulation executed in isolated DevSphere infrastructure. No requests sent to external systems. Results are synthetic estimates based on replica/mock architecture."
+      },
+      {
+        "id": "sim_1791627633520_cvhxcd",
+        "timestamp": "2026-10-10T10:20:33.520Z",
+        "vus": 1000,
+        "durationSec": 10,
+        "totalRequests": 13780,
+        "requestsPerSecond": 1378,
+        "throughputKbps": 159848,
+        "latency": {
+          "p50": 457,
+          "p90": 686,
+          "p95": 813,
+          "p99": 1118,
+          "min": 32,
+          "max": 1677,
+          "avg": 508
+        },
+        "errorRatePercent": 2.54,
+        "timeouts": 140,
+        "circuitBreakerTriggered": false,
+        "bottlenecks": [
+          "Database connection pool contention modeled at 500+ concurrent clients.",
+          "GC pause pressure observed in high-concurrency Node.js event loop.",
+          "p95 latency elevated (813ms) — consider caching hot API endpoints.",
+          "Error rate 2.54% indicates upstream timeout saturation."
+        ],
+        "timeSeries": [
+          {
+            "second": 1,
+            "rps": 459,
+            "latencyP95": 886,
+            "errors": 12,
+            "activeVUs": 333
+          },
+          {
+            "second": 2,
+            "rps": 942,
+            "latencyP95": 882,
+            "errors": 24,
+            "activeVUs": 667
+          },
+          {
+            "second": 3,
+            "rps": 1442,
+            "latencyP95": 886,
+            "errors": 37,
+            "activeVUs": 1000
+          },
+          {
+            "second": 4,
+            "rps": 1443,
+            "latencyP95": 821,
+            "errors": 37,
+            "activeVUs": 1000
+          },
+          {
+            "second": 5,
+            "rps": 1360,
+            "latencyP95": 848,
+            "errors": 35,
+            "activeVUs": 1000
+          },
+          {
+            "second": 6,
+            "rps": 1366,
+            "latencyP95": 886,
+            "errors": 35,
+            "activeVUs": 1000
+          },
+          {
+            "second": 7,
+            "rps": 1310,
+            "latencyP95": 733,
+            "errors": 33,
+            "activeVUs": 1000
+          },
+          {
+            "second": 8,
+            "rps": 1315,
+            "latencyP95": 883,
+            "errors": 33,
+            "activeVUs": 1000
+          },
+          {
+            "second": 9,
+            "rps": 1407,
+            "latencyP95": 765,
+            "errors": 36,
+            "activeVUs": 1000
+          },
+          {
+            "second": 10,
+            "rps": 1353,
+            "latencyP95": 783,
+            "errors": 34,
+            "activeVUs": 1000
+          }
+        ],
+        "isSynthetic": true,
+        "disclaimer": "Synthetic Load Simulation executed in isolated DevSphere infrastructure. No requests sent to external systems. Results are synthetic estimates based on replica/mock architecture."
+      },
+      {
+        "id": "sim_1791627633399_7gzjoa",
+        "timestamp": "2026-10-10T10:20:33.399Z",
+        "vus": 1000,
+        "durationSec": 10,
+        "totalRequests": 19610,
+        "requestsPerSecond": 1961,
+        "throughputKbps": 227476,
+        "latency": {
+          "p50": 321,
+          "p90": 482,
+          "p95": 571,
+          "p99": 785,
+          "min": 23,
+          "max": 1178,
+          "avg": 357
+        },
+        "errorRatePercent": 2.92,
+        "timeouts": 229,
+        "circuitBreakerTriggered": false,
+        "bottlenecks": [
+          "Database connection pool contention modeled at 500+ concurrent clients.",
+          "GC pause pressure observed in high-concurrency Node.js event loop.",
+          "p95 latency elevated (571ms) — consider caching hot API endpoints.",
+          "Error rate 2.92% indicates upstream timeout saturation."
+        ],
+        "timeSeries": [
+          {
+            "second": 1,
+            "rps": 675,
+            "latencyP95": 609,
+            "errors": 20,
+            "activeVUs": 333
+          },
+          {
+            "second": 2,
+            "rps": 1337,
+            "latencyP95": 613,
+            "errors": 39,
+            "activeVUs": 667
+          },
+          {
+            "second": 3,
+            "rps": 1895,
+            "latencyP95": 533,
+            "errors": 55,
+            "activeVUs": 1000
+          },
+          {
+            "second": 4,
+            "rps": 1976,
+            "latencyP95": 626,
+            "errors": 58,
+            "activeVUs": 1000
+          },
+          {
+            "second": 5,
+            "rps": 2034,
+            "latencyP95": 550,
+            "errors": 59,
+            "activeVUs": 1000
+          },
+          {
+            "second": 6,
+            "rps": 2003,
+            "latencyP95": 530,
+            "errors": 58,
+            "activeVUs": 1000
+          },
+          {
+            "second": 7,
+            "rps": 1967,
+            "latencyP95": 574,
+            "errors": 57,
+            "activeVUs": 1000
+          },
+          {
+            "second": 8,
+            "rps": 1928,
+            "latencyP95": 600,
+            "errors": 56,
+            "activeVUs": 1000
+          },
+          {
+            "second": 9,
+            "rps": 2002,
+            "latencyP95": 621,
+            "errors": 58,
+            "activeVUs": 1000
+          },
+          {
+            "second": 10,
+            "rps": 1918,
+            "latencyP95": 594,
+            "errors": 56,
+            "activeVUs": 1000
+          }
+        ],
+        "isSynthetic": true,
+        "disclaimer": "Synthetic Load Simulation executed in isolated DevSphere infrastructure. No requests sent to external systems. Results are synthetic estimates based on replica/mock architecture."
+      },
+      {
+        "id": "sim_1791627633267_7rjeqg",
+        "timestamp": "2026-10-10T10:20:33.267Z",
+        "vus": 1000,
+        "durationSec": 10,
+        "totalRequests": 17630,
+        "requestsPerSecond": 1763,
+        "throughputKbps": 204508,
+        "latency": {
+          "p50": 357,
+          "p90": 536,
+          "p95": 635,
+          "p99": 873,
+          "min": 25,
+          "max": 1310,
+          "avg": 397
+        },
+        "errorRatePercent": 1.81,
+        "timeouts": 127,
+        "circuitBreakerTriggered": false,
+        "bottlenecks": [
+          "Database connection pool contention modeled at 500+ concurrent clients.",
+          "GC pause pressure observed in high-concurrency Node.js event loop.",
+          "p95 latency elevated (635ms) — consider caching hot API endpoints.",
+          "Error rate 1.81% indicates upstream timeout saturation."
+        ],
+        "timeSeries": [
+          {
+            "second": 1,
+            "rps": 604,
+            "latencyP95": 638,
+            "errors": 11,
+            "activeVUs": 333
+          },
+          {
+            "second": 2,
+            "rps": 1160,
+            "latencyP95": 617,
+            "errors": 21,
+            "activeVUs": 667
+          },
+          {
+            "second": 3,
+            "rps": 1724,
+            "latencyP95": 636,
+            "errors": 31,
+            "activeVUs": 1000
+          },
+          {
+            "second": 4,
+            "rps": 1733,
+            "latencyP95": 638,
+            "errors": 31,
+            "activeVUs": 1000
+          },
+          {
+            "second": 5,
+            "rps": 1710,
+            "latencyP95": 610,
+            "errors": 31,
+            "activeVUs": 1000
+          },
+          {
+            "second": 6,
+            "rps": 1783,
+            "latencyP95": 624,
+            "errors": 32,
+            "activeVUs": 1000
+          },
+          {
+            "second": 7,
+            "rps": 1783,
+            "latencyP95": 672,
+            "errors": 32,
+            "activeVUs": 1000
+          },
+          {
+            "second": 8,
+            "rps": 1742,
+            "latencyP95": 618,
+            "errors": 32,
+            "activeVUs": 1000
+          },
+          {
+            "second": 9,
+            "rps": 1704,
+            "latencyP95": 606,
+            "errors": 31,
+            "activeVUs": 1000
+          },
+          {
+            "second": 10,
+            "rps": 1788,
+            "latencyP95": 601,
+            "errors": 32,
+            "activeVUs": 1000
+          }
+        ],
+        "isSynthetic": true,
+        "disclaimer": "Synthetic Load Simulation executed in isolated DevSphere infrastructure. No requests sent to external systems. Results are synthetic estimates based on replica/mock architecture."
+      },
+      {
+        "id": "sim_1791627633135_iq197j",
+        "timestamp": "2026-10-10T10:20:33.135Z",
+        "vus": 1000,
+        "durationSec": 10,
+        "totalRequests": 17630,
+        "requestsPerSecond": 1763,
+        "throughputKbps": 204508,
+        "latency": {
+          "p50": 357,
+          "p90": 536,
+          "p95": 635,
+          "p99": 873,
+          "min": 25,
+          "max": 1310,
+          "avg": 397
+        },
+        "errorRatePercent": 2.09,
+        "timeouts": 147,
+        "circuitBreakerTriggered": false,
+        "bottlenecks": [
+          "Database connection pool contention modeled at 500+ concurrent clients.",
+          "GC pause pressure observed in high-concurrency Node.js event loop.",
+          "p95 latency elevated (635ms) — consider caching hot API endpoints.",
+          "Error rate 2.09% indicates upstream timeout saturation."
+        ],
+        "timeSeries": [
+          {
+            "second": 1,
+            "rps": 606,
+            "latencyP95": 633,
+            "errors": 13,
+            "activeVUs": 333
+          },
+          {
+            "second": 2,
+            "rps": 1221,
+            "latencyP95": 609,
+            "errors": 26,
+            "activeVUs": 667
+          },
+          {
+            "second": 3,
+            "rps": 1771,
+            "latencyP95": 638,
+            "errors": 37,
+            "activeVUs": 1000
+          },
+          {
+            "second": 4,
+            "rps": 1693,
+            "latencyP95": 691,
+            "errors": 35,
+            "activeVUs": 1000
+          },
+          {
+            "second": 5,
+            "rps": 1813,
+            "latencyP95": 635,
+            "errors": 38,
+            "activeVUs": 1000
+          },
+          {
+            "second": 6,
+            "rps": 1818,
+            "latencyP95": 644,
+            "errors": 38,
+            "activeVUs": 1000
+          },
+          {
+            "second": 7,
+            "rps": 1686,
+            "latencyP95": 622,
+            "errors": 35,
+            "activeVUs": 1000
+          },
+          {
+            "second": 8,
+            "rps": 1682,
+            "latencyP95": 647,
+            "errors": 35,
+            "activeVUs": 1000
+          },
+          {
+            "second": 9,
+            "rps": 1675,
+            "latencyP95": 674,
+            "errors": 35,
+            "activeVUs": 1000
+          },
+          {
+            "second": 10,
+            "rps": 1756,
+            "latencyP95": 684,
+            "errors": 37,
+            "activeVUs": 1000
+          }
+        ],
+        "isSynthetic": true,
+        "disclaimer": "Synthetic Load Simulation executed in isolated DevSphere infrastructure. No requests sent to external systems. Results are synthetic estimates based on replica/mock architecture."
+      },
+      {
+        "id": "sim_1791627632982_c45uro",
+        "timestamp": "2026-10-10T10:20:32.982Z",
+        "vus": 1000,
+        "durationSec": 10,
+        "totalRequests": 14430,
+        "requestsPerSecond": 1443,
+        "throughputKbps": 167388,
+        "latency": {
+          "p50": 437,
+          "p90": 655,
+          "p95": 776,
+          "p99": 1067,
+          "min": 31,
+          "max": 1601,
+          "avg": 485
+        },
+        "errorRatePercent": 1.63,
+        "timeouts": 94,
+        "circuitBreakerTriggered": false,
+        "bottlenecks": [
+          "Database connection pool contention modeled at 500+ concurrent clients.",
+          "GC pause pressure observed in high-concurrency Node.js event loop.",
+          "p95 latency elevated (776ms) — consider caching hot API endpoints.",
+          "Error rate 1.63% indicates upstream timeout saturation."
+        ],
+        "timeSeries": [
+          {
+            "second": 1,
+            "rps": 464,
+            "latencyP95": 849,
+            "errors": 8,
+            "activeVUs": 333
+          },
+          {
+            "second": 2,
+            "rps": 958,
+            "latencyP95": 770,
+            "errors": 16,
+            "activeVUs": 667
+          },
+          {
+            "second": 3,
+            "rps": 1372,
+            "latencyP95": 728,
+            "errors": 22,
+            "activeVUs": 1000
+          },
+          {
+            "second": 4,
+            "rps": 1497,
+            "latencyP95": 810,
+            "errors": 24,
+            "activeVUs": 1000
+          },
+          {
+            "second": 5,
+            "rps": 1413,
+            "latencyP95": 836,
+            "errors": 23,
+            "activeVUs": 1000
+          },
+          {
+            "second": 6,
+            "rps": 1478,
+            "latencyP95": 708,
+            "errors": 24,
+            "activeVUs": 1000
+          },
+          {
+            "second": 7,
+            "rps": 1431,
+            "latencyP95": 738,
+            "errors": 23,
+            "activeVUs": 1000
+          },
+          {
+            "second": 8,
+            "rps": 1424,
+            "latencyP95": 698,
+            "errors": 23,
+            "activeVUs": 1000
+          },
+          {
+            "second": 9,
+            "rps": 1396,
+            "latencyP95": 699,
+            "errors": 23,
+            "activeVUs": 1000
+          },
+          {
+            "second": 10,
+            "rps": 1503,
+            "latencyP95": 716,
+            "errors": 24,
+            "activeVUs": 1000
+          }
+        ],
+        "isSynthetic": true,
+        "disclaimer": "Synthetic Load Simulation executed in isolated DevSphere infrastructure. No requests sent to external systems. Results are synthetic estimates based on replica/mock architecture."
+      },
+      {
+        "id": "sim_1791627632848_yd75ns",
+        "timestamp": "2026-10-10T10:20:32.848Z",
+        "vus": 1000,
+        "durationSec": 10,
+        "totalRequests": 17630,
+        "requestsPerSecond": 1763,
+        "throughputKbps": 204508,
+        "latency": {
+          "p50": 357,
+          "p90": 536,
+          "p95": 635,
+          "p99": 873,
+          "min": 25,
+          "max": 1310,
+          "avg": 397
+        },
+        "errorRatePercent": 2.56,
+        "timeouts": 180,
+        "circuitBreakerTriggered": false,
+        "bottlenecks": [
+          "Database connection pool contention modeled at 500+ concurrent clients.",
+          "GC pause pressure observed in high-concurrency Node.js event loop.",
+          "p95 latency elevated (635ms) — consider caching hot API endpoints.",
+          "Error rate 2.56% indicates upstream timeout saturation."
+        ],
+        "timeSeries": [
+          {
+            "second": 1,
+            "rps": 568,
+            "latencyP95": 681,
+            "errors": 15,
+            "activeVUs": 333
+          },
+          {
+            "second": 2,
+            "rps": 1177,
+            "latencyP95": 602,
+            "errors": 30,
+            "activeVUs": 667
+          },
+          {
+            "second": 3,
+            "rps": 1834,
+            "latencyP95": 599,
+            "errors": 47,
+            "activeVUs": 1000
+          },
+          {
+            "second": 4,
+            "rps": 1681,
+            "latencyP95": 577,
+            "errors": 43,
+            "activeVUs": 1000
+          },
+          {
+            "second": 5,
+            "rps": 1779,
+            "latencyP95": 589,
+            "errors": 46,
+            "activeVUs": 1000
+          },
+          {
+            "second": 6,
+            "rps": 1713,
+            "latencyP95": 593,
+            "errors": 44,
+            "activeVUs": 1000
+          },
+          {
+            "second": 7,
+            "rps": 1812,
+            "latencyP95": 572,
+            "errors": 46,
+            "activeVUs": 1000
+          },
+          {
+            "second": 8,
+            "rps": 1778,
+            "latencyP95": 576,
+            "errors": 46,
+            "activeVUs": 1000
+          },
+          {
+            "second": 9,
+            "rps": 1816,
+            "latencyP95": 586,
+            "errors": 46,
+            "activeVUs": 1000
+          },
+          {
+            "second": 10,
+            "rps": 1844,
+            "latencyP95": 574,
+            "errors": 47,
+            "activeVUs": 1000
+          }
+        ],
+        "isSynthetic": true,
+        "disclaimer": "Synthetic Load Simulation executed in isolated DevSphere infrastructure. No requests sent to external systems. Results are synthetic estimates based on replica/mock architecture."
+      },
+      {
+        "id": "sim_1791627632714_3e1ywf",
+        "timestamp": "2026-10-10T10:20:32.714Z",
+        "vus": 1000,
+        "durationSec": 10,
+        "totalRequests": 17630,
+        "requestsPerSecond": 1763,
+        "throughputKbps": 204508,
+        "latency": {
+          "p50": 357,
+          "p90": 536,
+          "p95": 635,
+          "p99": 873,
+          "min": 25,
+          "max": 1310,
+          "avg": 397
+        },
+        "errorRatePercent": 1.77,
+        "timeouts": 124,
+        "circuitBreakerTriggered": false,
+        "bottlenecks": [
+          "Database connection pool contention modeled at 500+ concurrent clients.",
+          "GC pause pressure observed in high-concurrency Node.js event loop.",
+          "p95 latency elevated (635ms) — consider caching hot API endpoints.",
+          "Error rate 1.77% indicates upstream timeout saturation."
+        ],
+        "timeSeries": [
+          {
+            "second": 1,
+            "rps": 614,
+            "latencyP95": 657,
+            "errors": 11,
+            "activeVUs": 333
+          },
+          {
+            "second": 2,
+            "rps": 1123,
+            "latencyP95": 656,
+            "errors": 20,
+            "activeVUs": 667
+          },
+          {
+            "second": 3,
+            "rps": 1821,
+            "latencyP95": 636,
+            "errors": 32,
+            "activeVUs": 1000
+          },
+          {
+            "second": 4,
+            "rps": 1813,
+            "latencyP95": 613,
+            "errors": 32,
+            "activeVUs": 1000
+          },
+          {
+            "second": 5,
+            "rps": 1741,
+            "latencyP95": 656,
+            "errors": 31,
+            "activeVUs": 1000
+          },
+          {
+            "second": 6,
+            "rps": 1778,
+            "latencyP95": 578,
+            "errors": 31,
+            "activeVUs": 1000
+          },
+          {
+            "second": 7,
+            "rps": 1771,
+            "latencyP95": 651,
+            "errors": 31,
+            "activeVUs": 1000
+          },
+          {
+            "second": 8,
+            "rps": 1838,
+            "latencyP95": 633,
+            "errors": 33,
+            "activeVUs": 1000
+          },
+          {
+            "second": 9,
+            "rps": 1702,
+            "latencyP95": 653,
+            "errors": 30,
+            "activeVUs": 1000
+          },
+          {
+            "second": 10,
+            "rps": 1779,
+            "latencyP95": 597,
+            "errors": 31,
+            "activeVUs": 1000
+          }
+        ],
+        "isSynthetic": true,
+        "disclaimer": "Synthetic Load Simulation executed in isolated DevSphere infrastructure. No requests sent to external systems. Results are synthetic estimates based on replica/mock architecture."
+      },
+      {
+        "id": "sim_1791627632581_62bacq",
+        "timestamp": "2026-10-10T10:20:32.581Z",
+        "vus": 1000,
+        "durationSec": 10,
+        "totalRequests": 16630,
+        "requestsPerSecond": 1663,
+        "throughputKbps": 192908,
+        "latency": {
+          "p50": 379,
+          "p90": 568,
+          "p95": 674,
+          "p99": 926,
+          "min": 27,
+          "max": 1389,
+          "avg": 421
+        },
+        "errorRatePercent": 3.31,
+        "timeouts": 220,
+        "circuitBreakerTriggered": false,
+        "bottlenecks": [
+          "Database connection pool contention modeled at 500+ concurrent clients.",
+          "GC pause pressure observed in high-concurrency Node.js event loop.",
+          "p95 latency elevated (674ms) — consider caching hot API endpoints.",
+          "Error rate 3.31% indicates upstream timeout saturation."
+        ],
+        "timeSeries": [
+          {
+            "second": 1,
+            "rps": 547,
+            "latencyP95": 658,
+            "errors": 18,
+            "activeVUs": 333
+          },
+          {
+            "second": 2,
+            "rps": 1063,
+            "latencyP95": 697,
+            "errors": 35,
+            "activeVUs": 667
+          },
+          {
+            "second": 3,
+            "rps": 1590,
+            "latencyP95": 704,
+            "errors": 53,
+            "activeVUs": 1000
+          },
+          {
+            "second": 4,
+            "rps": 1726,
+            "latencyP95": 708,
+            "errors": 57,
+            "activeVUs": 1000
+          },
+          {
+            "second": 5,
+            "rps": 1608,
+            "latencyP95": 615,
+            "errors": 53,
+            "activeVUs": 1000
+          },
+          {
+            "second": 6,
+            "rps": 1580,
+            "latencyP95": 667,
+            "errors": 52,
+            "activeVUs": 1000
+          },
+          {
+            "second": 7,
+            "rps": 1598,
+            "latencyP95": 702,
+            "errors": 53,
+            "activeVUs": 1000
+          },
+          {
+            "second": 8,
+            "rps": 1690,
+            "latencyP95": 740,
+            "errors": 56,
+            "activeVUs": 1000
+          },
+          {
+            "second": 9,
+            "rps": 1589,
+            "latencyP95": 692,
+            "errors": 53,
+            "activeVUs": 1000
+          },
+          {
+            "second": 10,
+            "rps": 1663,
+            "latencyP95": 733,
+            "errors": 55,
+            "activeVUs": 1000
+          }
+        ],
+        "isSynthetic": true,
+        "disclaimer": "Synthetic Load Simulation executed in isolated DevSphere infrastructure. No requests sent to external systems. Results are synthetic estimates based on replica/mock architecture."
+      },
+      {
+        "id": "sim_1791627632439_tsaz7q",
+        "timestamp": "2026-10-10T10:20:32.439Z",
+        "vus": 1000,
+        "durationSec": 10,
+        "totalRequests": 16630,
+        "requestsPerSecond": 1663,
+        "throughputKbps": 192908,
+        "latency": {
+          "p50": 379,
+          "p90": 568,
+          "p95": 674,
+          "p99": 926,
+          "min": 27,
+          "max": 1389,
+          "avg": 421
+        },
+        "errorRatePercent": 1.94,
+        "timeouts": 129,
+        "circuitBreakerTriggered": false,
+        "bottlenecks": [
+          "Database connection pool contention modeled at 500+ concurrent clients.",
+          "GC pause pressure observed in high-concurrency Node.js event loop.",
+          "p95 latency elevated (674ms) — consider caching hot API endpoints.",
+          "Error rate 1.94% indicates upstream timeout saturation."
+        ],
+        "timeSeries": [
+          {
+            "second": 1,
+            "rps": 561,
+            "latencyP95": 632,
+            "errors": 11,
+            "activeVUs": 333
+          },
+          {
+            "second": 2,
+            "rps": 1089,
+            "latencyP95": 638,
+            "errors": 21,
+            "activeVUs": 667
+          },
+          {
+            "second": 3,
+            "rps": 1600,
+            "latencyP95": 645,
+            "errors": 31,
+            "activeVUs": 1000
+          },
+          {
+            "second": 4,
+            "rps": 1598,
+            "latencyP95": 707,
+            "errors": 31,
+            "activeVUs": 1000
+          },
+          {
+            "second": 5,
+            "rps": 1734,
+            "latencyP95": 658,
+            "errors": 34,
+            "activeVUs": 1000
+          },
+          {
+            "second": 6,
+            "rps": 1663,
+            "latencyP95": 717,
+            "errors": 32,
+            "activeVUs": 1000
+          },
+          {
+            "second": 7,
+            "rps": 1685,
+            "latencyP95": 704,
+            "errors": 33,
+            "activeVUs": 1000
+          },
+          {
+            "second": 8,
+            "rps": 1719,
+            "latencyP95": 615,
+            "errors": 33,
+            "activeVUs": 1000
+          },
+          {
+            "second": 9,
+            "rps": 1738,
+            "latencyP95": 731,
+            "errors": 34,
+            "activeVUs": 1000
+          },
+          {
+            "second": 10,
+            "rps": 1664,
+            "latencyP95": 690,
+            "errors": 32,
+            "activeVUs": 1000
+          }
+        ],
+        "isSynthetic": true,
+        "disclaimer": "Synthetic Load Simulation executed in isolated DevSphere infrastructure. No requests sent to external systems. Results are synthetic estimates based on replica/mock architecture."
+      },
+      {
+        "id": "sim_1791627632292_82u5tl",
+        "timestamp": "2026-10-10T10:20:32.292Z",
+        "vus": 1000,
+        "durationSec": 10,
+        "totalRequests": 15450,
+        "requestsPerSecond": 1545,
+        "throughputKbps": 179220,
+        "latency": {
+          "p50": 408,
+          "p90": 612,
+          "p95": 725,
+          "p99": 997,
+          "min": 29,
+          "max": 1496,
+          "avg": 453
+        },
+        "errorRatePercent": 3.51,
+        "timeouts": 216,
+        "circuitBreakerTriggered": false,
+        "bottlenecks": [
+          "Database connection pool contention modeled at 500+ concurrent clients.",
+          "GC pause pressure observed in high-concurrency Node.js event loop.",
+          "p95 latency elevated (725ms) — consider caching hot API endpoints.",
+          "Error rate 3.51% indicates upstream timeout saturation."
+        ],
+        "timeSeries": [
+          {
+            "second": 1,
+            "rps": 535,
+            "latencyP95": 653,
+            "errors": 19,
+            "activeVUs": 333
+          },
+          {
+            "second": 2,
+            "rps": 1035,
+            "latencyP95": 700,
+            "errors": 36,
+            "activeVUs": 667
+          },
+          {
+            "second": 3,
+            "rps": 1581,
+            "latencyP95": 734,
+            "errors": 55,
+            "activeVUs": 1000
+          },
+          {
+            "second": 4,
+            "rps": 1618,
+            "latencyP95": 731,
+            "errors": 57,
+            "activeVUs": 1000
+          },
+          {
+            "second": 5,
+            "rps": 1514,
+            "latencyP95": 770,
+            "errors": 53,
+            "activeVUs": 1000
+          },
+          {
+            "second": 6,
+            "rps": 1551,
+            "latencyP95": 725,
+            "errors": 54,
+            "activeVUs": 1000
+          },
+          {
+            "second": 7,
+            "rps": 1569,
+            "latencyP95": 780,
+            "errors": 55,
+            "activeVUs": 1000
+          },
+          {
+            "second": 8,
+            "rps": 1529,
+            "latencyP95": 789,
+            "errors": 54,
+            "activeVUs": 1000
+          },
+          {
+            "second": 9,
+            "rps": 1527,
+            "latencyP95": 703,
+            "errors": 54,
+            "activeVUs": 1000
+          },
+          {
+            "second": 10,
+            "rps": 1588,
+            "latencyP95": 733,
+            "errors": 56,
+            "activeVUs": 1000
+          }
+        ],
+        "isSynthetic": true,
+        "disclaimer": "Synthetic Load Simulation executed in isolated DevSphere infrastructure. No requests sent to external systems. Results are synthetic estimates based on replica/mock architecture."
+      },
+      {
+        "id": "sim_1791627632146_sc00wq",
+        "timestamp": "2026-10-10T10:20:32.146Z",
+        "vus": 1000,
+        "durationSec": 10,
+        "totalRequests": 19180,
+        "requestsPerSecond": 1918,
+        "throughputKbps": 222488,
+        "latency": {
+          "p50": 329,
+          "p90": 493,
+          "p95": 584,
+          "p99": 803,
+          "min": 23,
+          "max": 1205,
+          "avg": 365
+        },
+        "errorRatePercent": 3.64,
+        "timeouts": 279,
+        "circuitBreakerTriggered": false,
+        "bottlenecks": [
+          "Database connection pool contention modeled at 500+ concurrent clients.",
+          "GC pause pressure observed in high-concurrency Node.js event loop.",
+          "p95 latency elevated (584ms) — consider caching hot API endpoints.",
+          "Error rate 3.64% indicates upstream timeout saturation."
+        ],
+        "timeSeries": [
+          {
+            "second": 1,
+            "rps": 615,
+            "latencyP95": 545,
+            "errors": 22,
+            "activeVUs": 333
+          },
+          {
+            "second": 2,
+            "rps": 1273,
+            "latencyP95": 574,
+            "errors": 46,
+            "activeVUs": 667
+          },
+          {
+            "second": 3,
+            "rps": 1890,
+            "latencyP95": 597,
+            "errors": 69,
+            "activeVUs": 1000
+          },
+          {
+            "second": 4,
+            "rps": 1919,
+            "latencyP95": 603,
+            "errors": 70,
+            "activeVUs": 1000
+          },
+          {
+            "second": 5,
+            "rps": 1899,
+            "latencyP95": 557,
+            "errors": 69,
+            "activeVUs": 1000
+          },
+          {
+            "second": 6,
+            "rps": 1938,
+            "latencyP95": 543,
+            "errors": 71,
+            "activeVUs": 1000
+          },
+          {
+            "second": 7,
+            "rps": 1992,
+            "latencyP95": 605,
+            "errors": 73,
+            "activeVUs": 1000
+          },
+          {
+            "second": 8,
+            "rps": 1886,
+            "latencyP95": 568,
+            "errors": 69,
+            "activeVUs": 1000
+          },
+          {
+            "second": 9,
+            "rps": 2013,
+            "latencyP95": 551,
+            "errors": 73,
+            "activeVUs": 1000
+          },
+          {
+            "second": 10,
+            "rps": 1975,
+            "latencyP95": 572,
+            "errors": 72,
+            "activeVUs": 1000
+          }
+        ],
+        "isSynthetic": true,
+        "disclaimer": "Synthetic Load Simulation executed in isolated DevSphere infrastructure. No requests sent to external systems. Results are synthetic estimates based on replica/mock architecture."
+      },
+      {
+        "id": "sim_1791627631992_b93v6p",
+        "timestamp": "2026-10-10T10:20:31.992Z",
+        "vus": 1000,
+        "durationSec": 10,
+        "totalRequests": 16020,
+        "requestsPerSecond": 1602,
+        "throughputKbps": 185832,
+        "latency": {
+          "p50": 393,
+          "p90": 590,
+          "p95": 699,
+          "p99": 961,
+          "min": 28,
+          "max": 1442,
+          "avg": 437
+        },
+        "errorRatePercent": 3.31,
+        "timeouts": 212,
+        "circuitBreakerTriggered": false,
+        "bottlenecks": [
+          "Database connection pool contention modeled at 500+ concurrent clients.",
+          "GC pause pressure observed in high-concurrency Node.js event loop.",
+          "p95 latency elevated (699ms) — consider caching hot API endpoints.",
+          "Error rate 3.31% indicates upstream timeout saturation."
+        ],
+        "timeSeries": [
+          {
+            "second": 1,
+            "rps": 532,
+            "latencyP95": 733,
+            "errors": 18,
+            "activeVUs": 333
+          },
+          {
+            "second": 2,
+            "rps": 1049,
+            "latencyP95": 689,
+            "errors": 35,
+            "activeVUs": 667
+          },
+          {
+            "second": 3,
+            "rps": 1539,
+            "latencyP95": 640,
+            "errors": 51,
+            "activeVUs": 1000
+          },
+          {
+            "second": 4,
+            "rps": 1590,
+            "latencyP95": 668,
+            "errors": 53,
+            "activeVUs": 1000
+          },
+          {
+            "second": 5,
+            "rps": 1653,
+            "latencyP95": 659,
+            "errors": 55,
+            "activeVUs": 1000
+          },
+          {
+            "second": 6,
+            "rps": 1571,
+            "latencyP95": 666,
+            "errors": 52,
+            "activeVUs": 1000
+          },
+          {
+            "second": 7,
+            "rps": 1561,
+            "latencyP95": 678,
+            "errors": 52,
+            "activeVUs": 1000
+          },
+          {
+            "second": 8,
+            "rps": 1636,
+            "latencyP95": 673,
+            "errors": 54,
+            "activeVUs": 1000
+          },
+          {
+            "second": 9,
+            "rps": 1673,
+            "latencyP95": 761,
+            "errors": 55,
+            "activeVUs": 1000
+          },
+          {
+            "second": 10,
+            "rps": 1549,
+            "latencyP95": 658,
+            "errors": 51,
+            "activeVUs": 1000
+          }
+        ],
+        "isSynthetic": true,
+        "disclaimer": "Synthetic Load Simulation executed in isolated DevSphere infrastructure. No requests sent to external systems. Results are synthetic estimates based on replica/mock architecture."
+      },
+      {
+        "id": "sim_1791627631415_bhvkgr",
+        "timestamp": "2026-10-10T10:20:31.415Z",
+        "vus": 1000,
+        "durationSec": 10,
+        "totalRequests": 19610,
+        "requestsPerSecond": 1961,
+        "throughputKbps": 227476,
+        "latency": {
+          "p50": 321,
+          "p90": 482,
+          "p95": 571,
+          "p99": 785,
+          "min": 23,
+          "max": 1178,
+          "avg": 357
+        },
+        "errorRatePercent": 2.13,
+        "timeouts": 167,
+        "circuitBreakerTriggered": false,
+        "bottlenecks": [
+          "Database connection pool contention modeled at 500+ concurrent clients.",
+          "GC pause pressure observed in high-concurrency Node.js event loop.",
+          "p95 latency elevated (571ms) — consider caching hot API endpoints.",
+          "Error rate 2.13% indicates upstream timeout saturation."
+        ],
+        "timeSeries": [
+          {
+            "second": 1,
+            "rps": 654,
+            "latencyP95": 580,
+            "errors": 14,
+            "activeVUs": 333
+          },
+          {
+            "second": 2,
+            "rps": 1358,
+            "latencyP95": 555,
+            "errors": 29,
+            "activeVUs": 667
+          },
+          {
+            "second": 3,
+            "rps": 2029,
+            "latencyP95": 627,
+            "errors": 43,
+            "activeVUs": 1000
+          },
+          {
+            "second": 4,
+            "rps": 1994,
+            "latencyP95": 564,
+            "errors": 42,
+            "activeVUs": 1000
+          },
+          {
+            "second": 5,
+            "rps": 1972,
+            "latencyP95": 599,
+            "errors": 42,
+            "activeVUs": 1000
+          },
+          {
+            "second": 6,
+            "rps": 2041,
+            "latencyP95": 550,
+            "errors": 43,
+            "activeVUs": 1000
+          },
+          {
+            "second": 7,
+            "rps": 2022,
+            "latencyP95": 517,
+            "errors": 43,
+            "activeVUs": 1000
+          },
+          {
+            "second": 8,
+            "rps": 2055,
+            "latencyP95": 538,
+            "errors": 44,
+            "activeVUs": 1000
+          },
+          {
+            "second": 9,
+            "rps": 1965,
+            "latencyP95": 541,
+            "errors": 42,
+            "activeVUs": 1000
+          },
+          {
+            "second": 10,
+            "rps": 1920,
+            "latencyP95": 557,
+            "errors": 41,
+            "activeVUs": 1000
+          }
+        ],
+        "isSynthetic": true,
+        "disclaimer": "Synthetic Load Simulation executed in isolated DevSphere infrastructure. No requests sent to external systems. Results are synthetic estimates based on replica/mock architecture."
+      },
+      {
+        "id": "sim_1791627630300_4h8lu9",
+        "timestamp": "2026-10-10T10:20:30.300Z",
+        "vus": 1000,
+        "durationSec": 10,
+        "totalRequests": 16020,
+        "requestsPerSecond": 1602,
+        "throughputKbps": 185832,
+        "latency": {
+          "p50": 393,
+          "p90": 590,
+          "p95": 699,
+          "p99": 961,
+          "min": 28,
+          "max": 1442,
+          "avg": 437
+        },
+        "errorRatePercent": 2.8,
+        "timeouts": 179,
+        "circuitBreakerTriggered": false,
+        "bottlenecks": [
+          "Database connection pool contention modeled at 500+ concurrent clients.",
+          "GC pause pressure observed in high-concurrency Node.js event loop.",
+          "p95 latency elevated (699ms) — consider caching hot API endpoints.",
+          "Error rate 2.8% indicates upstream timeout saturation."
+        ],
+        "timeSeries": [
+          {
+            "second": 1,
+            "rps": 547,
+            "latencyP95": 741,
+            "errors": 15,
+            "activeVUs": 333
+          },
+          {
+            "second": 2,
+            "rps": 1055,
+            "latencyP95": 642,
+            "errors": 30,
+            "activeVUs": 667
+          },
+          {
+            "second": 3,
+            "rps": 1571,
+            "latencyP95": 733,
+            "errors": 44,
+            "activeVUs": 1000
+          },
+          {
+            "second": 4,
+            "rps": 1540,
+            "latencyP95": 712,
+            "errors": 43,
+            "activeVUs": 1000
+          },
+          {
+            "second": 5,
+            "rps": 1604,
+            "latencyP95": 710,
+            "errors": 45,
+            "activeVUs": 1000
+          },
+          {
+            "second": 6,
+            "rps": 1669,
+            "latencyP95": 729,
+            "errors": 47,
+            "activeVUs": 1000
+          },
+          {
+            "second": 7,
+            "rps": 1626,
+            "latencyP95": 750,
+            "errors": 46,
+            "activeVUs": 1000
+          },
+          {
+            "second": 8,
+            "rps": 1582,
+            "latencyP95": 762,
+            "errors": 44,
+            "activeVUs": 1000
+          },
+          {
+            "second": 9,
+            "rps": 1578,
+            "latencyP95": 651,
+            "errors": 44,
+            "activeVUs": 1000
+          },
+          {
+            "second": 10,
+            "rps": 1656,
+            "latencyP95": 722,
+            "errors": 46,
+            "activeVUs": 1000
+          }
+        ],
+        "isSynthetic": true,
+        "disclaimer": "Synthetic Load Simulation executed in isolated DevSphere infrastructure. No requests sent to external systems. Results are synthetic estimates based on replica/mock architecture."
+      },
+      {
+        "id": "sim_1791627629218_alynhn",
+        "timestamp": "2026-10-10T10:20:29.218Z",
+        "vus": 1000,
+        "durationSec": 10,
+        "totalRequests": 15450,
+        "requestsPerSecond": 1545,
+        "throughputKbps": 179220,
+        "latency": {
+          "p50": 408,
+          "p90": 612,
+          "p95": 725,
+          "p99": 997,
+          "min": 29,
+          "max": 1496,
+          "avg": 453
+        },
+        "errorRatePercent": 1.67,
+        "timeouts": 103,
+        "circuitBreakerTriggered": false,
+        "bottlenecks": [
+          "Database connection pool contention modeled at 500+ concurrent clients.",
+          "GC pause pressure observed in high-concurrency Node.js event loop.",
+          "p95 latency elevated (725ms) — consider caching hot API endpoints.",
+          "Error rate 1.67% indicates upstream timeout saturation."
+        ],
+        "timeSeries": [
+          {
+            "second": 1,
+            "rps": 491,
+            "latencyP95": 685,
+            "errors": 8,
+            "activeVUs": 333
+          },
+          {
+            "second": 2,
+            "rps": 1070,
+            "latencyP95": 698,
+            "errors": 18,
+            "activeVUs": 667
+          },
+          {
+            "second": 3,
+            "rps": 1495,
+            "latencyP95": 671,
+            "errors": 25,
+            "activeVUs": 1000
+          },
+          {
+            "second": 4,
+            "rps": 1612,
+            "latencyP95": 704,
+            "errors": 27,
+            "activeVUs": 1000
+          },
+          {
+            "second": 5,
+            "rps": 1578,
+            "latencyP95": 760,
+            "errors": 26,
+            "activeVUs": 1000
+          },
+          {
+            "second": 6,
+            "rps": 1488,
+            "latencyP95": 765,
+            "errors": 25,
+            "activeVUs": 1000
+          },
+          {
+            "second": 7,
+            "rps": 1487,
+            "latencyP95": 793,
+            "errors": 25,
+            "activeVUs": 1000
+          },
+          {
+            "second": 8,
+            "rps": 1607,
+            "latencyP95": 739,
+            "errors": 27,
+            "activeVUs": 1000
+          },
+          {
+            "second": 9,
+            "rps": 1617,
+            "latencyP95": 770,
+            "errors": 27,
+            "activeVUs": 1000
+          },
+          {
+            "second": 10,
+            "rps": 1603,
+            "latencyP95": 742,
+            "errors": 27,
+            "activeVUs": 1000
+          }
+        ],
+        "isSynthetic": true,
+        "disclaimer": "Synthetic Load Simulation executed in isolated DevSphere infrastructure. No requests sent to external systems. Results are synthetic estimates based on replica/mock architecture."
+      },
+      {
+        "id": "sim_1791627628026_4cwjdj",
+        "timestamp": "2026-10-10T10:20:28.026Z",
+        "vus": 1000,
+        "durationSec": 10,
+        "totalRequests": 16950,
+        "requestsPerSecond": 1695,
+        "throughputKbps": 196620,
+        "latency": {
+          "p50": 372,
+          "p90": 558,
+          "p95": 661,
+          "p99": 909,
+          "min": 26,
+          "max": 1364,
+          "avg": 413
+        },
+        "errorRatePercent": 2.51,
+        "timeouts": 170,
+        "circuitBreakerTriggered": false,
+        "bottlenecks": [
+          "Database connection pool contention modeled at 500+ concurrent clients.",
+          "GC pause pressure observed in high-concurrency Node.js event loop.",
+          "p95 latency elevated (661ms) — consider caching hot API endpoints.",
+          "Error rate 2.51% indicates upstream timeout saturation."
+        ],
+        "timeSeries": [
+          {
+            "second": 1,
+            "rps": 572,
+            "latencyP95": 663,
+            "errors": 14,
+            "activeVUs": 333
+          },
+          {
+            "second": 2,
+            "rps": 1173,
+            "latencyP95": 647,
+            "errors": 29,
+            "activeVUs": 667
+          },
+          {
+            "second": 3,
+            "rps": 1734,
+            "latencyP95": 628,
+            "errors": 44,
+            "activeVUs": 1000
+          },
+          {
+            "second": 4,
+            "rps": 1768,
+            "latencyP95": 660,
+            "errors": 44,
+            "activeVUs": 1000
+          },
+          {
+            "second": 5,
+            "rps": 1649,
+            "latencyP95": 649,
+            "errors": 41,
+            "activeVUs": 1000
+          },
+          {
+            "second": 6,
+            "rps": 1705,
+            "latencyP95": 677,
+            "errors": 43,
+            "activeVUs": 1000
+          },
+          {
+            "second": 7,
+            "rps": 1715,
+            "latencyP95": 659,
+            "errors": 43,
+            "activeVUs": 1000
+          },
+          {
+            "second": 8,
+            "rps": 1756,
+            "latencyP95": 712,
+            "errors": 44,
+            "activeVUs": 1000
+          },
+          {
+            "second": 9,
+            "rps": 1631,
+            "latencyP95": 690,
+            "errors": 41,
+            "activeVUs": 1000
+          },
+          {
+            "second": 10,
+            "rps": 1754,
+            "latencyP95": 606,
+            "errors": 44,
+            "activeVUs": 1000
+          }
+        ],
+        "isSynthetic": true,
+        "disclaimer": "Synthetic Load Simulation executed in isolated DevSphere infrastructure. No requests sent to external systems. Results are synthetic estimates based on replica/mock architecture."
+      },
+      {
+        "id": "sim_1791627230706_qgho9b",
+        "timestamp": "2026-10-10T10:13:50.706Z",
+        "vus": 1000,
+        "durationSec": 10,
+        "totalRequests": 14930,
+        "requestsPerSecond": 1493,
+        "throughputKbps": 173188,
+        "latency": {
+          "p50": 422,
+          "p90": 633,
+          "p95": 750,
+          "p99": 1032,
+          "min": 30,
+          "max": 1548,
+          "avg": 469
+        },
+        "errorRatePercent": 2.89,
+        "timeouts": 172,
+        "circuitBreakerTriggered": false,
+        "bottlenecks": [
+          "Database connection pool contention modeled at 500+ concurrent clients.",
+          "GC pause pressure observed in high-concurrency Node.js event loop.",
+          "p95 latency elevated (750ms) — consider caching hot API endpoints.",
+          "Error rate 2.89% indicates upstream timeout saturation."
+        ],
+        "timeSeries": [
+          {
+            "second": 1,
+            "rps": 497,
+            "latencyP95": 727,
+            "errors": 14,
+            "activeVUs": 333
+          },
+          {
+            "second": 2,
+            "rps": 1031,
+            "latencyP95": 777,
+            "errors": 30,
+            "activeVUs": 667
+          },
+          {
+            "second": 3,
+            "rps": 1541,
+            "latencyP95": 802,
+            "errors": 45,
+            "activeVUs": 1000
+          },
+          {
+            "second": 4,
+            "rps": 1529,
+            "latencyP95": 819,
+            "errors": 44,
+            "activeVUs": 1000
+          },
+          {
+            "second": 5,
+            "rps": 1480,
+            "latencyP95": 725,
+            "errors": 43,
+            "activeVUs": 1000
+          },
+          {
+            "second": 6,
+            "rps": 1563,
+            "latencyP95": 713,
+            "errors": 45,
+            "activeVUs": 1000
+          },
+          {
+            "second": 7,
+            "rps": 1510,
+            "latencyP95": 700,
+            "errors": 44,
+            "activeVUs": 1000
+          },
+          {
+            "second": 8,
+            "rps": 1550,
+            "latencyP95": 718,
+            "errors": 45,
+            "activeVUs": 1000
+          },
+          {
+            "second": 9,
+            "rps": 1549,
+            "latencyP95": 786,
+            "errors": 45,
+            "activeVUs": 1000
+          },
+          {
+            "second": 10,
+            "rps": 1520,
+            "latencyP95": 785,
+            "errors": 44,
+            "activeVUs": 1000
+          }
+        ],
+        "isSynthetic": true,
+        "disclaimer": "Synthetic Load Simulation executed in isolated DevSphere infrastructure. No requests sent to external systems. Results are synthetic estimates based on replica/mock architecture."
+      },
+      {
+        "id": "sim_1791627225826_esdpfo",
+        "timestamp": "2026-10-10T10:13:45.826Z",
+        "vus": 500,
+        "durationSec": 10,
+        "totalRequests": 13110,
+        "requestsPerSecond": 1311,
+        "throughputKbps": 152076,
+        "latency": {
+          "p50": 240,
+          "p90": 360,
+          "p95": 427,
+          "p99": 587,
+          "min": 23,
+          "max": 881,
+          "avg": 267
+        },
+        "errorRatePercent": 0.74,
+        "timeouts": 38,
+        "circuitBreakerTriggered": false,
+        "bottlenecks": [
+          "Database connection pool contention modeled at 500+ concurrent clients.",
+          "GC pause pressure observed in high-concurrency Node.js event loop.",
+          "p95 latency elevated (427ms) — consider caching hot API endpoints."
+        ],
+        "timeSeries": [
+          {
+            "second": 1,
+            "rps": 440,
+            "latencyP95": 431,
+            "errors": 3,
+            "activeVUs": 167
+          },
+          {
+            "second": 2,
+            "rps": 870,
+            "latencyP95": 393,
+            "errors": 6,
+            "activeVUs": 333
+          },
+          {
+            "second": 3,
+            "rps": 1306,
+            "latencyP95": 412,
+            "errors": 10,
+            "activeVUs": 500
+          },
+          {
+            "second": 4,
+            "rps": 1318,
+            "latencyP95": 400,
+            "errors": 10,
+            "activeVUs": 500
+          },
+          {
+            "second": 5,
+            "rps": 1314,
+            "latencyP95": 417,
+            "errors": 10,
+            "activeVUs": 500
+          },
+          {
+            "second": 6,
+            "rps": 1337,
+            "latencyP95": 447,
+            "errors": 10,
+            "activeVUs": 500
+          },
+          {
+            "second": 7,
+            "rps": 1259,
+            "latencyP95": 460,
+            "errors": 9,
+            "activeVUs": 500
+          },
+          {
+            "second": 8,
+            "rps": 1350,
+            "latencyP95": 465,
+            "errors": 10,
+            "activeVUs": 500
+          },
+          {
+            "second": 9,
+            "rps": 1281,
+            "latencyP95": 393,
+            "errors": 9,
+            "activeVUs": 500
+          },
+          {
+            "second": 10,
+            "rps": 1371,
+            "latencyP95": 391,
+            "errors": 10,
+            "activeVUs": 500
+          }
+        ],
+        "isSynthetic": true,
+        "disclaimer": "Synthetic Load Simulation executed in isolated DevSphere infrastructure. No requests sent to external systems. Results are synthetic estimates based on replica/mock architecture."
+      },
+      {
+        "id": "sim_1791627223113_icz80i",
+        "timestamp": "2026-10-10T10:13:43.113Z",
+        "vus": 100,
+        "durationSec": 10,
+        "totalRequests": 3890,
+        "requestsPerSecond": 389,
+        "throughputKbps": 45124,
+        "latency": {
+          "p50": 162,
+          "p90": 243,
+          "p95": 288,
+          "p99": 396,
+          "min": 32,
+          "max": 594,
+          "avg": 180
+        },
+        "errorRatePercent": 0.22,
+        "timeouts": 3,
+        "circuitBreakerTriggered": false,
+        "bottlenecks": [
+          "p95 latency elevated (288ms) — consider caching hot API endpoints."
+        ],
+        "timeSeries": [
+          {
+            "second": 1,
+            "rps": 127,
+            "latencyP95": 311,
+            "errors": 0,
+            "activeVUs": 33
+          },
+          {
+            "second": 2,
+            "rps": 260,
+            "latencyP95": 300,
+            "errors": 1,
+            "activeVUs": 67
+          },
+          {
+            "second": 3,
+            "rps": 383,
+            "latencyP95": 271,
+            "errors": 1,
+            "activeVUs": 100
+          },
+          {
+            "second": 4,
+            "rps": 383,
+            "latencyP95": 261,
+            "errors": 1,
+            "activeVUs": 100
+          },
+          {
+            "second": 5,
+            "rps": 405,
+            "latencyP95": 306,
+            "errors": 1,
+            "activeVUs": 100
+          },
+          {
+            "second": 6,
+            "rps": 387,
+            "latencyP95": 281,
+            "errors": 1,
+            "activeVUs": 100
+          },
+          {
+            "second": 7,
+            "rps": 389,
+            "latencyP95": 283,
+            "errors": 1,
+            "activeVUs": 100
+          },
+          {
+            "second": 8,
+            "rps": 397,
+            "latencyP95": 289,
+            "errors": 1,
+            "activeVUs": 100
+          },
+          {
+            "second": 9,
+            "rps": 384,
+            "latencyP95": 282,
+            "errors": 1,
+            "activeVUs": 100
+          },
+          {
+            "second": 10,
+            "rps": 375,
+            "latencyP95": 306,
+            "errors": 1,
+            "activeVUs": 100
+          }
+        ],
+        "isSynthetic": true,
+        "disclaimer": "Synthetic Load Simulation executed in isolated DevSphere infrastructure. No requests sent to external systems. Results are synthetic estimates based on replica/mock architecture."
+      },
+      {
+        "id": "sim_1791627217701_50779",
+        "timestamp": "2026-10-10T10:13:37.701Z",
+        "vus": 10,
+        "durationSec": 10,
+        "totalRequests": 1170,
+        "requestsPerSecond": 117,
+        "throughputKbps": 13572,
+        "latency": {
+          "p50": 54,
+          "p90": 81,
+          "p95": 96,
+          "p99": 132,
+          "min": 30,
+          "max": 198,
+          "avg": 60
+        },
+        "errorRatePercent": 0,
+        "timeouts": 0,
+        "circuitBreakerTriggered": false,
+        "bottlenecks": [
+          "No severe bottlenecks detected. Isolated environment sustained load cleanly."
+        ],
+        "timeSeries": [
+          {
+            "second": 1,
+            "rps": 38,
+            "latencyP95": 95,
+            "errors": 0,
+            "activeVUs": 3
+          },
+          {
+            "second": 2,
+            "rps": 81,
+            "latencyP95": 101,
+            "errors": 0,
+            "activeVUs": 7
+          },
+          {
+            "second": 3,
+            "rps": 117,
+            "latencyP95": 92,
+            "errors": 0,
+            "activeVUs": 10
+          },
+          {
+            "second": 4,
+            "rps": 115,
+            "latencyP95": 99,
+            "errors": 0,
+            "activeVUs": 10
+          },
+          {
+            "second": 5,
+            "rps": 118,
+            "latencyP95": 101,
+            "errors": 0,
+            "activeVUs": 10
+          },
+          {
+            "second": 6,
+            "rps": 115,
+            "latencyP95": 101,
+            "errors": 0,
+            "activeVUs": 10
+          },
+          {
+            "second": 7,
+            "rps": 122,
+            "latencyP95": 100,
+            "errors": 0,
+            "activeVUs": 10
+          },
+          {
+            "second": 8,
+            "rps": 118,
+            "latencyP95": 93,
+            "errors": 0,
+            "activeVUs": 10
+          },
+          {
+            "second": 9,
+            "rps": 122,
+            "latencyP95": 87,
+            "errors": 0,
+            "activeVUs": 10
+          },
+          {
+            "second": 10,
+            "rps": 120,
+            "latencyP95": 105,
+            "errors": 0,
+            "activeVUs": 10
+          }
+        ],
+        "isSynthetic": true,
+        "disclaimer": "Synthetic Load Simulation executed in isolated DevSphere infrastructure. No requests sent to external systems. Results are synthetic estimates based on replica/mock architecture."
+      }
+    ],
+    "faultInjectionHistory": [
+      {
+        "id": "fault_1791627251887_vnu2zp",
+        "timestamp": "2026-10-10T10:14:11.887Z",
+        "faultType": "worker_crash_recovery",
+        "parameters": {
+          "signal": "SIGKILL"
+        },
+        "status": "recovered",
+        "resilienceScore": 94,
+        "observedBehavior": "Mock background worker terminated unexpectedly. Process supervisor restarted child process in 420ms. Incomplete job redelivered via Dead Letter Queue.",
+        "gracefulDegradation": true,
+        "userFacingErrorMessage": "Background task delayed slightly but finished successfully.",
+        "recoveryTimeMs": 420,
+        "recommendations": [
+          "Ensure idempotent background job processors so re-delivered messages do not create duplicates.",
+          "Monitor Dead Letter Queue (DLQ) alerts for messages failing more than 3 retry attempts."
+        ]
+      },
+      {
+        "id": "fault_1791627249323_chm6g8",
+        "timestamp": "2026-10-10T10:14:09.323Z",
+        "faultType": "network_jitter",
+        "parameters": {
+          "minJitterMs": 100,
+          "maxJitterMs": 800
+        },
+        "status": "recovered",
+        "resilienceScore": 91,
+        "observedBehavior": "Simulated packet latency variance between 100ms and 800ms. No connection resets; TCP retransmissions handled cleanly by client adapter.",
+        "gracefulDegradation": true,
+        "userFacingErrorMessage": "No user errors observed.",
+        "recoveryTimeMs": 850,
+        "recommendations": [
+          "Tune keep-alive socket timeouts to prevent stale socket reuse under jitter.",
+          "Ensure HTTP client connection pool maintains reasonable maxIdleSockets."
+        ]
+      },
+      {
+        "id": "fault_1791627246975_n0nzd1",
+        "timestamp": "2026-10-10T10:14:06.975Z",
+        "faultType": "upstream_503",
+        "parameters": {
+          "failureRatePercent": 100
+        },
+        "status": "recovering",
+        "resilienceScore": 72,
+        "observedBehavior": "Mock third-party microservice returned HTTP 503. Exponential backoff with jitter attempted 3 retries before returning fallback response.",
+        "gracefulDegradation": true,
+        "userFacingErrorMessage": "External service is currently unavailable. Cached information is being displayed.",
+        "recoveryTimeMs": 2800,
+        "recommendations": [
+          "Ensure all third-party integrations have resilient retry policies with exponential jitter.",
+          "Return stale-while-revalidate cached responses when external APIs fail."
+        ]
+      },
+      {
+        "id": "fault_1791627242978_yu8jvl",
+        "timestamp": "2026-10-10T10:14:02.978Z",
+        "faultType": "db_connection_refusal",
+        "parameters": {
+          "failureRatePercent": 100
+        },
+        "status": "circuit_broken",
+        "resilienceScore": 45,
+        "observedBehavior": "Simulated ECONNREFUSED on primary database. Circuit breaker tripped after 3 consecutive connection drops. Mock application returned structured 503 Service Unavailable.",
+        "gracefulDegradation": true,
+        "userFacingErrorMessage": "Service temporarily undergoing maintenance. Please retry in 30 seconds.",
+        "recoveryTimeMs": 3400,
+        "recommendations": [
+          "Configure automatic failover to hot-standby database within 15 seconds.",
+          "Ensure health-check endpoint (/api/health) reports database degradation to load balancer.",
+          "Implement an in-memory fallback cache for read-only user views during database outages."
+        ]
+      },
+      {
+        "id": "fault_1791627239232_5rx1b",
+        "timestamp": "2026-10-10T10:13:59.232Z",
+        "faultType": "db_latency",
+        "parameters": {
+          "injectedLatencyMs": 1500
+        },
+        "status": "recovered",
+        "resilienceScore": 82,
+        "observedBehavior": "Database query latency artificially delayed by 1500ms. Mock pool queued 14 transactions. Connection timeout handled gracefully by application layer.",
+        "gracefulDegradation": true,
+        "userFacingErrorMessage": "Requests took longer than usual but completed successfully without data loss.",
+        "recoveryTimeMs": 1800,
+        "recommendations": [
+          "Implement Read-Replica connection pooling to offload read-heavy query pressure.",
+          "Wrap slow queries in a Redis Cache-Aside pattern with a 60-second TTL.",
+          "Configure client-side database query timeout to 2000ms max."
+        ]
+      }
+    ],
+    "securityFindings": [
+      {
+        "id": "SEC-SANDBOX-001",
+        "category": "xss_defense",
+        "severity": "high",
+        "confidence": "confirmed",
+        "title": "Unrestricted Content-Security-Policy Script Execution",
+        "affectedComponent": "Client-Side Rendering Pipeline",
+        "observedBehavior": "CSP policy header contains 'unsafe-inline' and 'unsafe-eval' directives without cryptographic nonces or SHA-256 hashes.",
+        "expectedBehavior": "CSP script-src should enforce strict-dynamic with cryptographically random per-request nonces.",
+        "evidence": {
+          "header": "content-security-policy",
+          "value": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval';",
+          "riskVector": "Inline script injection possible if user input is reflected into DOM."
+        },
+        "potentialImpact": "An attacker exploiting a DOM reflection vector could execute arbitrary JavaScript within the victim session.",
+        "remediation": "Implement nonce-based CSP headers and remove unsafe-inline and unsafe-eval from production responses.",
+        "verificationSteps": [
+          "Verify that script tags require a valid nonce attribute matching the response header.",
+          "Verify that inline evaluation with eval() or Function() is rejected by the browser."
+        ],
+        "isSandboxSimulation": true
+      },
+      {
+        "id": "SEC-SANDBOX-002",
+        "category": "csrf_protection",
+        "severity": "medium",
+        "confidence": "confirmed",
+        "title": "Missing SameSite Cookie Protection on Session Tokens",
+        "affectedComponent": "Session Storage & Authentication Middleware",
+        "observedBehavior": "Session cookie does not specify SameSite=Lax or SameSite=Strict attribute, allowing cross-site inclusion on top-level navigations.",
+        "expectedBehavior": "Session cookies must be set with SameSite=Lax or SameSite=Strict and HttpOnly + Secure flags enabled.",
+        "evidence": {
+          "cookieName": "session_id",
+          "flags": "HttpOnly; Path=/",
+          "missingFlags": [
+            "SameSite=Lax",
+            "Secure"
+          ]
+        },
+        "potentialImpact": "Vulnerability to cross-site request forgery if combined with state-changing GET or unsynchronized POST endpoints.",
+        "remediation": "Configure session cookie options with sameSite: \"lax\" (or \"strict\") and secure: true.",
+        "verificationSteps": [
+          "Inspect Set-Cookie header in authentication response.",
+          "Confirm SameSite=Lax and Secure attributes are present."
+        ],
+        "isSandboxSimulation": true
+      },
+      {
+        "id": "SEC-SANDBOX-003",
+        "category": "injection_defense",
+        "severity": "high",
+        "confidence": "confirmed",
+        "title": "Unparameterized Query Interpolation in Mock Repository",
+        "affectedComponent": "Data Access Layer / User Query Endpoint",
+        "observedBehavior": "User input string is concatenated directly into SQL statement template without parameterized placeholders.",
+        "expectedBehavior": "All queries must use prepared statements or ORM parameterized methods ($1, ?, or Prisma / TypeORM entity criteria).",
+        "evidence": {
+          "codePattern": "SELECT * FROM users WHERE email = '${userInput}'",
+          "vulnerableParameter": "email"
+        },
+        "potentialImpact": "Possibility of SQL injection allowing unauthorized data exfiltration or authentication bypass.",
+        "remediation": "Replace string interpolation with parameterized queries: client.query(\"SELECT * FROM users WHERE email = $1\", [email]).",
+        "verificationSteps": [
+          "Submit test input with single quotes and verify the database driver treats it as a literal value without syntax errors."
+        ],
+        "isSandboxSimulation": true
+      },
+      {
+        "id": "SEC-SANDBOX-004",
+        "category": "sensitive_exposure",
+        "severity": "low",
+        "confidence": "confirmed",
+        "title": "Verbose Server Version Banner Disclosure",
+        "affectedComponent": "HTTP Response Headers",
+        "observedBehavior": "Server header exposes precise runtime version banner (e.g. nginx/1.22.1 / Express 4.19.2).",
+        "expectedBehavior": "Server and X-Powered-By banners should be omitted or genericized.",
+        "evidence": {
+          "server": "nginx/1.22.1",
+          "x-powered-by": "Express"
+        },
+        "potentialImpact": "Aids automated vulnerability scanners in pinpointing known unpatched CVEs for this specific software version.",
+        "remediation": "Disable server_tokens in nginx and call app.disable(\"x-powered-by\") in Express/Fastify.",
+        "verificationSteps": [
+          "Send curl -I request and confirm Server header is absent or generic."
+        ],
+        "isSandboxSimulation": true
+      },
+      {
+        "id": "SEC-SANDBOX-005",
+        "category": "auth_configuration",
+        "severity": "medium",
+        "confidence": "probable",
+        "title": "Lack of Rate Limiting on Authentication Endpoints",
+        "affectedComponent": "Login & Password Reset Route Handlers",
+        "observedBehavior": "Authentication endpoint does not enforce IP or user-based rate throttling, permitting unbounded consecutive attempts.",
+        "expectedBehavior": "Enforce rate limiting of maximum 5 attempts per IP/user per 15-minute window with exponential backoff.",
+        "evidence": {
+          "endpoint": "/api/v1/auth/login",
+          "attemptsSimulated": 20,
+          "responsesReceived": "20 x 401 Unauthorized without 429 Too Many Requests throttle"
+        },
+        "potentialImpact": "Exposes user accounts to credential stuffing and brute force dictionary attacks.",
+        "remediation": "Implement Redis-backed sliding window rate limiter (e.g. rate-limiter-flexible or express-rate-limit).",
+        "verificationSteps": [
+          "Simulate 6 rapid login attempts from the same IP and confirm the 6th response returns HTTP 429 Too Many Requests."
+        ],
+        "isSandboxSimulation": true
+      }
+    ],
+    "auditEvents": [
+      {
+        "id": "audit_1791627686785",
+        "timestamp": "2026-10-10T10:21:26.785Z",
+        "action": "AI_REMEDIATION_GENERATED",
+        "actor": "AI Systems Engineer",
+        "details": {
+          "findingId": "SEC-SANDBOX-001",
+          "framework": "unknown"
+        }
+      },
+      {
+        "id": "audit_1791627671883",
+        "timestamp": "2026-10-10T10:21:11.883Z",
+        "action": "AI_REMEDIATION_GENERATED",
+        "actor": "AI Systems Engineer",
+        "details": {
+          "findingId": "SEC-SANDBOX-005",
+          "framework": "unknown"
+        }
+      },
+      {
+        "id": "audit_1791627652480",
+        "timestamp": "2026-10-10T10:20:52.480Z",
+        "action": "TRAFFIC_SIMULATION_EXECUTED",
+        "actor": "Developer",
+        "details": {
+          "vus": 500,
+          "duration": 10,
+          "rps": 970,
+          "circuitBreakerTriggered": false
+        }
+      },
+      {
+        "id": "audit_1791627634197",
+        "timestamp": "2026-10-10T10:20:34.197Z",
+        "action": "TRAFFIC_SIMULATION_EXECUTED",
+        "actor": "Developer",
+        "details": {
+          "vus": 1000,
+          "duration": 10,
+          "rps": 1443,
+          "circuitBreakerTriggered": false
+        }
+      },
+      {
+        "id": "audit_1791627634044",
+        "timestamp": "2026-10-10T10:20:34.044Z",
+        "action": "TRAFFIC_SIMULATION_EXECUTED",
+        "actor": "Developer",
+        "details": {
+          "vus": 1000,
+          "duration": 10,
+          "rps": 1493,
+          "circuitBreakerTriggered": false
+        }
+      },
+      {
+        "id": "audit_1791627633903",
+        "timestamp": "2026-10-10T10:20:33.903Z",
+        "action": "TRAFFIC_SIMULATION_EXECUTED",
+        "actor": "Developer",
+        "details": {
+          "vus": 1000,
+          "duration": 10,
+          "rps": 1468,
+          "circuitBreakerTriggered": false
+        }
+      },
+      {
+        "id": "audit_1791627633750",
+        "timestamp": "2026-10-10T10:20:33.750Z",
+        "action": "TRAFFIC_SIMULATION_EXECUTED",
+        "actor": "Developer",
+        "details": {
+          "vus": 1000,
+          "duration": 10,
+          "rps": 1728,
+          "circuitBreakerTriggered": false
+        }
+      },
+      {
+        "id": "audit_1791627633520",
+        "timestamp": "2026-10-10T10:20:33.520Z",
+        "action": "TRAFFIC_SIMULATION_EXECUTED",
+        "actor": "Developer",
+        "details": {
+          "vus": 1000,
+          "duration": 10,
+          "rps": 1378,
+          "circuitBreakerTriggered": false
+        }
+      },
+      {
+        "id": "audit_1791627633399",
+        "timestamp": "2026-10-10T10:20:33.399Z",
+        "action": "TRAFFIC_SIMULATION_EXECUTED",
+        "actor": "Developer",
+        "details": {
+          "vus": 1000,
+          "duration": 10,
+          "rps": 1961,
+          "circuitBreakerTriggered": false
+        }
+      },
+      {
+        "id": "audit_1791627633267",
+        "timestamp": "2026-10-10T10:20:33.267Z",
+        "action": "TRAFFIC_SIMULATION_EXECUTED",
+        "actor": "Developer",
+        "details": {
+          "vus": 1000,
+          "duration": 10,
+          "rps": 1763,
+          "circuitBreakerTriggered": false
+        }
+      },
+      {
+        "id": "audit_1791627633135",
+        "timestamp": "2026-10-10T10:20:33.135Z",
+        "action": "TRAFFIC_SIMULATION_EXECUTED",
+        "actor": "Developer",
+        "details": {
+          "vus": 1000,
+          "duration": 10,
+          "rps": 1763,
+          "circuitBreakerTriggered": false
+        }
+      },
+      {
+        "id": "audit_1791627632982",
+        "timestamp": "2026-10-10T10:20:32.982Z",
+        "action": "TRAFFIC_SIMULATION_EXECUTED",
+        "actor": "Developer",
+        "details": {
+          "vus": 1000,
+          "duration": 10,
+          "rps": 1443,
+          "circuitBreakerTriggered": false
+        }
+      },
+      {
+        "id": "audit_1791627632848",
+        "timestamp": "2026-10-10T10:20:32.848Z",
+        "action": "TRAFFIC_SIMULATION_EXECUTED",
+        "actor": "Developer",
+        "details": {
+          "vus": 1000,
+          "duration": 10,
+          "rps": 1763,
+          "circuitBreakerTriggered": false
+        }
+      },
+      {
+        "id": "audit_1791627632714",
+        "timestamp": "2026-10-10T10:20:32.714Z",
+        "action": "TRAFFIC_SIMULATION_EXECUTED",
+        "actor": "Developer",
+        "details": {
+          "vus": 1000,
+          "duration": 10,
+          "rps": 1763,
+          "circuitBreakerTriggered": false
+        }
+      },
+      {
+        "id": "audit_1791627632581",
+        "timestamp": "2026-10-10T10:20:32.581Z",
+        "action": "TRAFFIC_SIMULATION_EXECUTED",
+        "actor": "Developer",
+        "details": {
+          "vus": 1000,
+          "duration": 10,
+          "rps": 1663,
+          "circuitBreakerTriggered": false
+        }
+      },
+      {
+        "id": "audit_1791627632439",
+        "timestamp": "2026-10-10T10:20:32.439Z",
+        "action": "TRAFFIC_SIMULATION_EXECUTED",
+        "actor": "Developer",
+        "details": {
+          "vus": 1000,
+          "duration": 10,
+          "rps": 1663,
+          "circuitBreakerTriggered": false
+        }
+      },
+      {
+        "id": "audit_1791627632292",
+        "timestamp": "2026-10-10T10:20:32.292Z",
+        "action": "TRAFFIC_SIMULATION_EXECUTED",
+        "actor": "Developer",
+        "details": {
+          "vus": 1000,
+          "duration": 10,
+          "rps": 1545,
+          "circuitBreakerTriggered": false
+        }
+      },
+      {
+        "id": "audit_1791627632146",
+        "timestamp": "2026-10-10T10:20:32.146Z",
+        "action": "TRAFFIC_SIMULATION_EXECUTED",
+        "actor": "Developer",
+        "details": {
+          "vus": 1000,
+          "duration": 10,
+          "rps": 1918,
+          "circuitBreakerTriggered": false
+        }
+      },
+      {
+        "id": "audit_1791627631992",
+        "timestamp": "2026-10-10T10:20:31.992Z",
+        "action": "TRAFFIC_SIMULATION_EXECUTED",
+        "actor": "Developer",
+        "details": {
+          "vus": 1000,
+          "duration": 10,
+          "rps": 1602,
+          "circuitBreakerTriggered": false
+        }
+      },
+      {
+        "id": "audit_1791627631415",
+        "timestamp": "2026-10-10T10:20:31.415Z",
+        "action": "TRAFFIC_SIMULATION_EXECUTED",
+        "actor": "Developer",
+        "details": {
+          "vus": 1000,
+          "duration": 10,
+          "rps": 1961,
+          "circuitBreakerTriggered": false
+        }
+      },
+      {
+        "id": "audit_1791627630300",
+        "timestamp": "2026-10-10T10:20:30.300Z",
+        "action": "TRAFFIC_SIMULATION_EXECUTED",
+        "actor": "Developer",
+        "details": {
+          "vus": 1000,
+          "duration": 10,
+          "rps": 1602,
+          "circuitBreakerTriggered": false
+        }
+      },
+      {
+        "id": "audit_1791627629218",
+        "timestamp": "2026-10-10T10:20:29.218Z",
+        "action": "TRAFFIC_SIMULATION_EXECUTED",
+        "actor": "Developer",
+        "details": {
+          "vus": 1000,
+          "duration": 10,
+          "rps": 1545,
+          "circuitBreakerTriggered": false
+        }
+      },
+      {
+        "id": "audit_1791627628026",
+        "timestamp": "2026-10-10T10:20:28.026Z",
+        "action": "TRAFFIC_SIMULATION_EXECUTED",
+        "actor": "Developer",
+        "details": {
+          "vus": 1000,
+          "duration": 10,
+          "rps": 1695,
+          "circuitBreakerTriggered": false
+        }
+      },
+      {
+        "id": "audit_1791627251887",
+        "timestamp": "2026-10-10T10:14:11.887Z",
+        "action": "FAULT_INJECTED",
+        "actor": "SRE / Chaos Engineer",
+        "details": {
+          "faultType": "worker_crash_recovery",
+          "status": "recovered",
+          "resilienceScore": 94
+        }
+      },
+      {
+        "id": "audit_1791627249323",
+        "timestamp": "2026-10-10T10:14:09.323Z",
+        "action": "FAULT_INJECTED",
+        "actor": "SRE / Chaos Engineer",
+        "details": {
+          "faultType": "network_jitter",
+          "status": "recovered",
+          "resilienceScore": 91
+        }
+      },
+      {
+        "id": "audit_1791627246975",
+        "timestamp": "2026-10-10T10:14:06.975Z",
+        "action": "FAULT_INJECTED",
+        "actor": "SRE / Chaos Engineer",
+        "details": {
+          "faultType": "upstream_503",
+          "status": "recovering",
+          "resilienceScore": 72
+        }
+      },
+      {
+        "id": "audit_1791627242978",
+        "timestamp": "2026-10-10T10:14:02.978Z",
+        "action": "FAULT_INJECTED",
+        "actor": "SRE / Chaos Engineer",
+        "details": {
+          "faultType": "db_connection_refusal",
+          "status": "circuit_broken",
+          "resilienceScore": 45
+        }
+      },
+      {
+        "id": "audit_1791627239232",
+        "timestamp": "2026-10-10T10:13:59.232Z",
+        "action": "FAULT_INJECTED",
+        "actor": "SRE / Chaos Engineer",
+        "details": {
+          "faultType": "db_latency",
+          "status": "recovered",
+          "resilienceScore": 82
+        }
+      },
+      {
+        "id": "audit_1791627230706",
+        "timestamp": "2026-10-10T10:13:50.706Z",
+        "action": "TRAFFIC_SIMULATION_EXECUTED",
+        "actor": "Developer",
+        "details": {
+          "vus": 1000,
+          "duration": 10,
+          "rps": 1493,
+          "circuitBreakerTriggered": false
+        }
+      },
+      {
+        "id": "audit_1791627225826",
+        "timestamp": "2026-10-10T10:13:45.826Z",
+        "action": "TRAFFIC_SIMULATION_EXECUTED",
+        "actor": "Developer",
+        "details": {
+          "vus": 500,
+          "duration": 10,
+          "rps": 1311,
+          "circuitBreakerTriggered": false
+        }
+      },
+      {
+        "id": "audit_1791627223113",
+        "timestamp": "2026-10-10T10:13:43.113Z",
+        "action": "TRAFFIC_SIMULATION_EXECUTED",
+        "actor": "Developer",
+        "details": {
+          "vus": 100,
+          "duration": 10,
+          "rps": 389,
+          "circuitBreakerTriggered": false
+        }
+      },
+      {
+        "id": "audit_1791627217701",
+        "timestamp": "2026-10-10T10:13:37.701Z",
+        "action": "TRAFFIC_SIMULATION_EXECUTED",
+        "actor": "Developer",
+        "details": {
+          "vus": 10,
+          "duration": 10,
+          "rps": 117,
+          "circuitBreakerTriggered": false
+        }
+      },
+      {
+        "id": "audit_1791627205078_1",
+        "timestamp": "2026-10-10T10:13:25.078Z",
+        "action": "SESSION_INITIALIZED",
+        "actor": "System Orchestrator",
+        "details": {
+          "mode": "public_preview",
+          "targetUrl": "https://soraix.vercel.app",
+          "framework": "unknown"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lab_1791628924417_wc6wfi",
+    "name": "CyberLab: soraix.vercel.app",
+    "targetUrl": "https://soraix.vercel.app",
+    "mode": "public_preview",
+    "status": "ready",
+    "createdAt": "2026-10-10T10:42:05.920Z",
+    "expiresAt": "2026-10-11T10:42:05.920Z",
+    "verifiedDomain": false,
+    "framework": "unknown",
+    "snapshot": {
+      "url": "https://soraix.vercel.app",
+      "title": "SoraiX — A world beyond ordinary",
+      "description": "Find your next obsession. Discover extraordinary anime, build your watchlist, and explore new worlds with SoraiX.",
+      "domStructure": {
+        "title": "SoraiX — A world beyond ordinary",
+        "metaTags": {
+          "viewport": "width=device-width, initial-scale=1.0",
+          "theme-color": "#0b0b10",
+          "description": "Find your next obsession. Discover extraordinary anime, build your watchlist, and explore new worlds with SoraiX."
+        },
+        "headers": [],
+        "links": [],
+        "forms": [],
+        "buttons": [],
+        "scripts": [
+          "/assets/index-CH0zYq8T.js"
+        ],
+        "stylesheets": [
+          "/assets/index-DqWFeYdv.css"
+        ],
+        "images": []
+      },
+      "networkResources": [
+        {
+          "url": "https://soraix.vercel.app",
+          "type": "document",
+          "sizeBytes": 845,
+          "status": 200,
+          "cached": false
+        },
+        {
+          "url": "/assets/index-CH0zYq8T.js",
+          "type": "script",
+          "sizeBytes": 30569,
+          "status": 200,
+          "cached": true
+        },
+        {
+          "url": "/assets/index-DqWFeYdv.css",
+          "type": "stylesheet",
+          "sizeBytes": 3054,
+          "status": 200,
+          "cached": true
+        }
+      ],
+      "syntheticApis": [
+        {
+          "path": "/api/v1/health",
+          "method": "GET",
+          "mockStatus": 200,
+          "mockResponse": {
+            "status": "healthy",
+            "uptime": "99.98%",
+            "replica": "cyberlab-node-01"
+          }
+        },
+        {
+          "path": "/api/v1/session",
+          "method": "GET",
+          "mockStatus": 200,
+          "mockResponse": {
+            "authenticated": false,
+            "csrfToken": "synth_csrf_2vp9zr"
+          }
+        }
+      ],
+      "viewportMetrics": {
+        "desktop": {
+          "width": 1440,
+          "height": 900,
+          "layoutShiftScore": 0.02
+        },
+        "tablet": {
+          "width": 768,
+          "height": 1024,
+          "layoutShiftScore": 0.04
+        },
+        "mobile": {
+          "width": 375,
+          "height": 667,
+          "layoutShiftScore": 0.07
+        }
+      },
+      "securityHeaders": {
+        "content-security-policy": "default-src 'self'; script-src 'self'; script-src-attr 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https: data: blob:; media-src 'self' https: blob:; connect-src 'self' https:; worker-src 'self' blob:; frame-src 'self' https:; frame-ancestors 'none'; object-src 'none'; base-uri 'self'; form-action 'self'",
+        "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "permissions-policy": "camera=(), microphone=(), geolocation=()",
+        "x-xss-protection": null
+      },
+      "observedAt": "2026-10-10T10:42:05.920Z",
+      "disclaimer": "Public Visual Preview — Not a Complete Website Clone. All traffic and interactions remain strictly inside DevSphere isolated infrastructure."
+    },
+    "activeVUs": 0,
+    "quotas": {
+      "maxVUs": 1000,
+      "maxDurationSec": 60,
+      "maxFaults": 10,
+      "memoryMb": 1024
+    },
+    "trafficSimulationHistory": [
+      {
+        "id": "sim_1791628947330_bovj5",
+        "timestamp": "2026-10-10T10:42:27.330Z",
+        "vus": 1000,
+        "durationSec": 10,
+        "totalRequests": 14930,
+        "requestsPerSecond": 1493,
+        "throughputKbps": 173188,
+        "latency": {
+          "p50": 422,
+          "p90": 633,
+          "p95": 750,
+          "p99": 1032,
+          "min": 30,
+          "max": 1548,
+          "avg": 469
+        },
+        "errorRatePercent": 1.53,
+        "timeouts": 91,
+        "circuitBreakerTriggered": false,
+        "bottlenecks": [
+          "Database connection pool contention modeled at 500+ concurrent clients.",
+          "GC pause pressure observed in high-concurrency Node.js event loop.",
+          "p95 latency elevated (750ms) — consider caching hot API endpoints.",
+          "Error rate 1.53% indicates upstream timeout saturation."
+        ],
+        "timeSeries": [
+          {
+            "second": 1,
+            "rps": 507,
+            "latencyP95": 742,
+            "errors": 8,
+            "activeVUs": 333
+          },
+          {
+            "second": 2,
+            "rps": 986,
+            "latencyP95": 775,
+            "errors": 15,
+            "activeVUs": 667
+          },
+          {
+            "second": 3,
+            "rps": 1481,
+            "latencyP95": 756,
+            "errors": 23,
+            "activeVUs": 1000
+          },
+          {
+            "second": 4,
+            "rps": 1420,
+            "latencyP95": 707,
+            "errors": 22,
+            "activeVUs": 1000
+          },
+          {
+            "second": 5,
+            "rps": 1528,
+            "latencyP95": 685,
+            "errors": 23,
+            "activeVUs": 1000
+          },
+          {
+            "second": 6,
+            "rps": 1438,
+            "latencyP95": 759,
+            "errors": 22,
+            "activeVUs": 1000
+          },
+          {
+            "second": 7,
+            "rps": 1496,
+            "latencyP95": 698,
+            "errors": 23,
+            "activeVUs": 1000
+          },
+          {
+            "second": 8,
+            "rps": 1477,
+            "latencyP95": 744,
+            "errors": 23,
+            "activeVUs": 1000
+          },
+          {
+            "second": 9,
+            "rps": 1465,
+            "latencyP95": 765,
+            "errors": 22,
+            "activeVUs": 1000
+          },
+          {
+            "second": 10,
+            "rps": 1525,
+            "latencyP95": 801,
+            "errors": 23,
+            "activeVUs": 1000
+          }
+        ],
+        "isSynthetic": true,
+        "disclaimer": "Synthetic Load Simulation executed in isolated DevSphere infrastructure. No requests sent to external systems. Results are synthetic estimates based on replica/mock architecture."
+      },
+      {
+        "id": "sim_1791628946281_7w5q3r",
+        "timestamp": "2026-10-10T10:42:26.281Z",
+        "vus": 1000,
+        "durationSec": 10,
+        "totalRequests": 18770,
+        "requestsPerSecond": 1877,
+        "throughputKbps": 217732,
+        "latency": {
+          "p50": 336,
+          "p90": 504,
+          "p95": 597,
+          "p99": 821,
+          "min": 24,
+          "max": 1232,
+          "avg": 373
+        },
+        "errorRatePercent": 1.93,
+        "timeouts": 144,
+        "circuitBreakerTriggered": false,
+        "bottlenecks": [
+          "Database connection pool contention modeled at 500+ concurrent clients.",
+          "GC pause pressure observed in high-concurrency Node.js event loop.",
+          "p95 latency elevated (597ms) — consider caching hot API endpoints.",
+          "Error rate 1.93% indicates upstream timeout saturation."
+        ],
+        "timeSeries": [
+          {
+            "second": 1,
+            "rps": 644,
+            "latencyP95": 567,
+            "errors": 12,
+            "activeVUs": 333
+          },
+          {
+            "second": 2,
+            "rps": 1280,
+            "latencyP95": 593,
+            "errors": 25,
+            "activeVUs": 667
+          },
+          {
+            "second": 3,
+            "rps": 1794,
+            "latencyP95": 653,
+            "errors": 35,
+            "activeVUs": 1000
+          },
+          {
+            "second": 4,
+            "rps": 1930,
+            "latencyP95": 619,
+            "errors": 37,
+            "activeVUs": 1000
+          },
+          {
+            "second": 5,
+            "rps": 1799,
+            "latencyP95": 609,
+            "errors": 35,
+            "activeVUs": 1000
+          },
+          {
+            "second": 6,
+            "rps": 1921,
+            "latencyP95": 632,
+            "errors": 37,
+            "activeVUs": 1000
+          },
+          {
+            "second": 7,
+            "rps": 1874,
+            "latencyP95": 605,
+            "errors": 36,
+            "activeVUs": 1000
+          },
+          {
+            "second": 8,
+            "rps": 1965,
+            "latencyP95": 636,
+            "errors": 38,
+            "activeVUs": 1000
+          },
+          {
+            "second": 9,
+            "rps": 1937,
+            "latencyP95": 653,
+            "errors": 37,
+            "activeVUs": 1000
+          },
+          {
+            "second": 10,
+            "rps": 1828,
+            "latencyP95": 611,
+            "errors": 35,
+            "activeVUs": 1000
+          }
+        ],
+        "isSynthetic": true,
+        "disclaimer": "Synthetic Load Simulation executed in isolated DevSphere infrastructure. No requests sent to external systems. Results are synthetic estimates based on replica/mock architecture."
+      },
+      {
+        "id": "sim_1791628943852_g9nkv6",
+        "timestamp": "2026-10-10T10:42:23.853Z",
+        "vus": 1000,
+        "durationSec": 10,
+        "totalRequests": 18770,
+        "requestsPerSecond": 1877,
+        "throughputKbps": 217732,
+        "latency": {
+          "p50": 336,
+          "p90": 504,
+          "p95": 597,
+          "p99": 821,
+          "min": 24,
+          "max": 1232,
+          "avg": 373
+        },
+        "errorRatePercent": 2.6,
+        "timeouts": 195,
+        "circuitBreakerTriggered": false,
+        "bottlenecks": [
+          "Database connection pool contention modeled at 500+ concurrent clients.",
+          "GC pause pressure observed in high-concurrency Node.js event loop.",
+          "p95 latency elevated (597ms) — consider caching hot API endpoints.",
+          "Error rate 2.6% indicates upstream timeout saturation."
+        ],
+        "timeSeries": [
+          {
+            "second": 1,
+            "rps": 615,
+            "latencyP95": 575,
+            "errors": 16,
+            "activeVUs": 333
+          },
+          {
+            "second": 2,
+            "rps": 1298,
+            "latencyP95": 580,
+            "errors": 34,
+            "activeVUs": 667
+          },
+          {
+            "second": 3,
+            "rps": 1793,
+            "latencyP95": 583,
+            "errors": 47,
+            "activeVUs": 1000
+          },
+          {
+            "second": 4,
+            "rps": 1812,
+            "latencyP95": 539,
+            "errors": 47,
+            "activeVUs": 1000
+          },
+          {
+            "second": 5,
+            "rps": 1812,
+            "latencyP95": 607,
+            "errors": 47,
+            "activeVUs": 1000
+          },
+          {
+            "second": 6,
+            "rps": 1848,
+            "latencyP95": 626,
+            "errors": 48,
+            "activeVUs": 1000
+          },
+          {
+            "second": 7,
+            "rps": 1878,
+            "latencyP95": 640,
+            "errors": 49,
+            "activeVUs": 1000
+          },
+          {
+            "second": 8,
+            "rps": 1909,
+            "latencyP95": 582,
+            "errors": 50,
+            "activeVUs": 1000
+          },
+          {
+            "second": 9,
+            "rps": 1804,
+            "latencyP95": 623,
+            "errors": 47,
+            "activeVUs": 1000
+          },
+          {
+            "second": 10,
+            "rps": 1816,
+            "latencyP95": 554,
+            "errors": 47,
+            "activeVUs": 1000
+          }
+        ],
+        "isSynthetic": true,
+        "disclaimer": "Synthetic Load Simulation executed in isolated DevSphere infrastructure. No requests sent to external systems. Results are synthetic estimates based on replica/mock architecture."
+      }
+    ],
+    "faultInjectionHistory": [
+      {
+        "id": "fault_1791628940036_zisjsu",
+        "timestamp": "2026-10-10T10:42:20.036Z",
+        "faultType": "db_latency",
+        "parameters": {
+          "injectedLatencyMs": 1500
+        },
+        "status": "recovered",
+        "resilienceScore": 82,
+        "observedBehavior": "Database query latency artificially delayed by 1500ms. Mock pool queued 14 transactions. Connection timeout handled gracefully by application layer.",
+        "gracefulDegradation": true,
+        "userFacingErrorMessage": "Requests took longer than usual but completed successfully without data loss.",
+        "recoveryTimeMs": 1800,
+        "recommendations": [
+          "Implement Read-Replica connection pooling to offload read-heavy query pressure.",
+          "Wrap slow queries in a Redis Cache-Aside pattern with a 60-second TTL.",
+          "Configure client-side database query timeout to 2000ms max."
+        ]
+      }
+    ],
+    "securityFindings": [
+      {
+        "id": "SEC-SANDBOX-001",
+        "category": "xss_defense",
+        "severity": "high",
+        "confidence": "confirmed",
+        "title": "Unrestricted Content-Security-Policy Script Execution",
+        "affectedComponent": "Client-Side Rendering Pipeline",
+        "observedBehavior": "CSP policy header contains 'unsafe-inline' and 'unsafe-eval' directives without cryptographic nonces or SHA-256 hashes.",
+        "expectedBehavior": "CSP script-src should enforce strict-dynamic with cryptographically random per-request nonces.",
+        "evidence": {
+          "header": "content-security-policy",
+          "value": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval';",
+          "riskVector": "Inline script injection possible if user input is reflected into DOM."
+        },
+        "potentialImpact": "An attacker exploiting a DOM reflection vector could execute arbitrary JavaScript within the victim session.",
+        "remediation": "Implement nonce-based CSP headers and remove unsafe-inline and unsafe-eval from production responses.",
+        "verificationSteps": [
+          "Verify that script tags require a valid nonce attribute matching the response header.",
+          "Verify that inline evaluation with eval() or Function() is rejected by the browser."
+        ],
+        "isSandboxSimulation": true
+      },
+      {
+        "id": "SEC-SANDBOX-002",
+        "category": "csrf_protection",
+        "severity": "medium",
+        "confidence": "confirmed",
+        "title": "Missing SameSite Cookie Protection on Session Tokens",
+        "affectedComponent": "Session Storage & Authentication Middleware",
+        "observedBehavior": "Session cookie does not specify SameSite=Lax or SameSite=Strict attribute, allowing cross-site inclusion on top-level navigations.",
+        "expectedBehavior": "Session cookies must be set with SameSite=Lax or SameSite=Strict and HttpOnly + Secure flags enabled.",
+        "evidence": {
+          "cookieName": "session_id",
+          "flags": "HttpOnly; Path=/",
+          "missingFlags": [
+            "SameSite=Lax",
+            "Secure"
+          ]
+        },
+        "potentialImpact": "Vulnerability to cross-site request forgery if combined with state-changing GET or unsynchronized POST endpoints.",
+        "remediation": "Configure session cookie options with sameSite: \"lax\" (or \"strict\") and secure: true.",
+        "verificationSteps": [
+          "Inspect Set-Cookie header in authentication response.",
+          "Confirm SameSite=Lax and Secure attributes are present."
+        ],
+        "isSandboxSimulation": true
+      },
+      {
+        "id": "SEC-SANDBOX-003",
+        "category": "injection_defense",
+        "severity": "high",
+        "confidence": "confirmed",
+        "title": "Unparameterized Query Interpolation in Mock Repository",
+        "affectedComponent": "Data Access Layer / User Query Endpoint",
+        "observedBehavior": "User input string is concatenated directly into SQL statement template without parameterized placeholders.",
+        "expectedBehavior": "All queries must use prepared statements or ORM parameterized methods ($1, ?, or Prisma / TypeORM entity criteria).",
+        "evidence": {
+          "codePattern": "SELECT * FROM users WHERE email = '${userInput}'",
+          "vulnerableParameter": "email"
+        },
+        "potentialImpact": "Possibility of SQL injection allowing unauthorized data exfiltration or authentication bypass.",
+        "remediation": "Replace string interpolation with parameterized queries: client.query(\"SELECT * FROM users WHERE email = $1\", [email]).",
+        "verificationSteps": [
+          "Submit test input with single quotes and verify the database driver treats it as a literal value without syntax errors."
+        ],
+        "isSandboxSimulation": true
+      },
+      {
+        "id": "SEC-SANDBOX-004",
+        "category": "sensitive_exposure",
+        "severity": "low",
+        "confidence": "confirmed",
+        "title": "Verbose Server Version Banner Disclosure",
+        "affectedComponent": "HTTP Response Headers",
+        "observedBehavior": "Server header exposes precise runtime version banner (e.g. nginx/1.22.1 / Express 4.19.2).",
+        "expectedBehavior": "Server and X-Powered-By banners should be omitted or genericized.",
+        "evidence": {
+          "server": "nginx/1.22.1",
+          "x-powered-by": "Express"
+        },
+        "potentialImpact": "Aids automated vulnerability scanners in pinpointing known unpatched CVEs for this specific software version.",
+        "remediation": "Disable server_tokens in nginx and call app.disable(\"x-powered-by\") in Express/Fastify.",
+        "verificationSteps": [
+          "Send curl -I request and confirm Server header is absent or generic."
+        ],
+        "isSandboxSimulation": true
+      },
+      {
+        "id": "SEC-SANDBOX-005",
+        "category": "auth_configuration",
+        "severity": "medium",
+        "confidence": "probable",
+        "title": "Lack of Rate Limiting on Authentication Endpoints",
+        "affectedComponent": "Login & Password Reset Route Handlers",
+        "observedBehavior": "Authentication endpoint does not enforce IP or user-based rate throttling, permitting unbounded consecutive attempts.",
+        "expectedBehavior": "Enforce rate limiting of maximum 5 attempts per IP/user per 15-minute window with exponential backoff.",
+        "evidence": {
+          "endpoint": "/api/v1/auth/login",
+          "attemptsSimulated": 20,
+          "responsesReceived": "20 x 401 Unauthorized without 429 Too Many Requests throttle"
+        },
+        "potentialImpact": "Exposes user accounts to credential stuffing and brute force dictionary attacks.",
+        "remediation": "Implement Redis-backed sliding window rate limiter (e.g. rate-limiter-flexible or express-rate-limit).",
+        "verificationSteps": [
+          "Simulate 6 rapid login attempts from the same IP and confirm the 6th response returns HTTP 429 Too Many Requests."
+        ],
+        "isSandboxSimulation": true
+      }
+    ],
+    "auditEvents": [
+      {
+        "id": "audit_1791628947330",
+        "timestamp": "2026-10-10T10:42:27.330Z",
+        "action": "TRAFFIC_SIMULATION_EXECUTED",
+        "actor": "Developer",
+        "details": {
+          "vus": 1000,
+          "duration": 10,
+          "rps": 1493,
+          "circuitBreakerTriggered": false
+        }
+      },
+      {
+        "id": "audit_1791628946281",
+        "timestamp": "2026-10-10T10:42:26.281Z",
+        "action": "TRAFFIC_SIMULATION_EXECUTED",
+        "actor": "Developer",
+        "details": {
+          "vus": 1000,
+          "duration": 10,
+          "rps": 1877,
+          "circuitBreakerTriggered": false
+        }
+      },
+      {
+        "id": "audit_1791628943853",
+        "timestamp": "2026-10-10T10:42:23.853Z",
+        "action": "TRAFFIC_SIMULATION_EXECUTED",
+        "actor": "Developer",
+        "details": {
+          "vus": 1000,
+          "duration": 10,
+          "rps": 1877,
+          "circuitBreakerTriggered": false
+        }
+      },
+      {
+        "id": "audit_1791628940036",
+        "timestamp": "2026-10-10T10:42:20.036Z",
+        "action": "FAULT_INJECTED",
+        "actor": "SRE / Chaos Engineer",
+        "details": {
+          "faultType": "db_latency",
+          "status": "recovered",
+          "resilienceScore": 82
+        }
+      },
+      {
+        "id": "audit_1791628925920_1",
+        "timestamp": "2026-10-10T10:42:05.920Z",
+        "action": "SESSION_INITIALIZED",
+        "actor": "System Orchestrator",
+        "details": {
+          "mode": "public_preview",
+          "targetUrl": "https://soraix.vercel.app",
+          "framework": "unknown"
+        }
+      }
+    ]
+  }
+]
